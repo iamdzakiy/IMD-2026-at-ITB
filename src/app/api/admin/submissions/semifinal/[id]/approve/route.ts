@@ -126,25 +126,25 @@ export async function POST(
         <body>
           <div class="container">
             <div class="header">
-              <h1 class="site-title">The Sandbox 3.0</h1>
-              <p class="subtitle">IEEE ITB Student Branch</p>
+              <h1 class="site-title">The IMD 2026 at ITB 3.0</h1>
+              <p class="subtitle">IMD 2026 at ITB Student Branch</p>
             </div>
             <div class="content">
               <h2 class="title">\u{1F3C6} Congratulations, ${escapeHtml(teamName)}!</h2>
-              <p class="text">We are thrilled to inform you that your team has officially advanced to the <strong style="color: #FFCD8D;">Final Round of BCC The Sandbox 3.0</strong>. Your hard work and excellent preliminary submission truly stood out!</p>
+              <p class="text">We are thrilled to inform you that your team has officially advanced to the <strong style="color: #FFCD8D;">Final Round of BCC The IMD 2026 at ITB 3.0</strong>. Your hard work and excellent preliminary submission truly stood out!</p>
               <div style="text-align: center;"><span class="status-badge">\u2705 ADVANCED TO FINAL ROUND</span></div>
               <p class="text">To help you prepare for the Final Pitch, please access the necessary documents below:</p>
               <div class="info-box">
-                <a href="https://bit.ly/GuidebookFinalBCCSandbox" class="resource-link">\u{1F517} <strong>Final Guidebook:</strong> https://bit.ly/GuidebookFinalBCCSandbox</a>
-                <a href="https://bit.ly/TransparansiBCCSandbox" class="resource-link">\u{1F517} <strong>Score Transparency:</strong> https://bit.ly/TransparansiBCCSandbox</a>
+                <a href="https://bit.ly/GuidebookFinalBCCIMD 2026 at ITB" class="resource-link">\u{1F517} <strong>Final Guidebook:</strong> https://bit.ly/GuidebookFinalBCCIMD 2026 at ITB</a>
+                <a href="https://bit.ly/TransparansiBCCIMD 2026 at ITB" class="resource-link">\u{1F517} <strong>Score Transparency:</strong> https://bit.ly/TransparansiBCCIMD 2026 at ITB</a>
               </div>
               <p class="text">Please review the guidebook carefully for the final timeline, presentation format, and next steps. If you have any questions, feel free to reach out contact person.</p>
               <p class="text">Once again, congratulations, and we look forward to seeing your best performance in the finals!</p>
-              <p class="signature">Best regards,<br/><strong style="color: #FFCD8D;">Staff of BCC The Sandbox 3.0</strong></p>
+              <p class="signature">Best regards,<br/><strong style="color: #FFCD8D;">Staff of BCC The IMD 2026 at ITB 3.0</strong></p>
             </div>
             <div class="footer">
-              <p class="footer-text">Need help? Contact us at <a href="mailto:sandbox@ieee-itb.org" style="color: #FFCD8D; text-decoration: none;">sandbox@ieee-itb.org</a></p>
-              <p class="footer-copyright">\u00a9 2026 The Sandbox - IEEE ITB Student Branch. All rights reserved.</p>
+              <p class="footer-text">Need help? Contact us at <a href="mailto:imd 2026 at itb@IMD 2026 at ITB-itb.org" style="color: #FFCD8D; text-decoration: none;">imd 2026 at itb@IMD 2026 at ITB-itb.org</a></p>
+              <p class="footer-copyright">\u00a9 2026 The IMD 2026 at ITB - IMD 2026 at ITB Student Branch. All rights reserved.</p>
             </div>
           </div>
         </body>
@@ -180,8 +180,8 @@ export async function POST(
         <body>
           <div class="container">
             <div class="header">
-              <h1 class="site-title">The Sandbox 3.0</h1>
-              <p class="subtitle">IEEE ITB Student Branch</p>
+              <h1 class="site-title">The IMD 2026 at ITB 3.0</h1>
+              <p class="subtitle">IMD 2026 at ITB Student Branch</p>
             </div>
             <div class="content">
               <h2 class="title">\u{1F3C6} Semifinal Approved!</h2>
@@ -199,8 +199,8 @@ export async function POST(
               <div class="button-container"><a href="${getBaseUrl()}/dashboard" class="button">Go to Dashboard</a></div>
             </div>
             <div class="footer">
-              <p class="footer-text">Need help? Contact us at <a href="mailto:sandbox@ieee-itb.org" style="color: #FFCD8D; text-decoration: none;">sandbox@ieee-itb.org</a></p>
-              <p class="footer-copyright">\u00a9 2026 The Sandbox - IEEE ITB Student Branch. All rights reserved.</p>
+              <p class="footer-text">Need help? Contact us at <a href="mailto:imd 2026 at itb@IMD 2026 at ITB-itb.org" style="color: #FFCD8D; text-decoration: none;">imd 2026 at itb@IMD 2026 at ITB-itb.org</a></p>
+              <p class="footer-copyright">\u00a9 2026 The IMD 2026 at ITB - IMD 2026 at ITB Student Branch. All rights reserved.</p>
             </div>
           </div>
         </body>
@@ -208,7 +208,7 @@ export async function POST(
     `;
 
     const subject = isBcc
-      ? `🏆 Congratulations ${teamName} — Advanced to the Final Round of BCC The Sandbox 3.0`
+      ? `🏆 Congratulations ${teamName} — Advanced to the Final Round of BCC The IMD 2026 at ITB 3.0`
       : `🏆 Semifinal Approved — You're a Finalist! - ${submission.registration.competition.name}`;
 
     await sendMail({

@@ -200,10 +200,10 @@ function SuccessContent() {
             <p className='text-[#9b7a6f] text-sm'>
               Need help? Contact us at{' '}
               <a
-                href='mailto:support@sandboxieee.com'
+                href='mailto:support@imd 2026 at itbieee.com'
                 className='text-[#FFCD8D] hover:underline'
               >
-                support@sandboxieee.com
+                support@imd 2026 at itbieee.com
               </a>
             </p>
           </div>

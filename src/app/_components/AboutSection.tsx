@@ -12,7 +12,7 @@ export default function AboutSection() {
             backgroundClip: 'text',
           }}
         >
-          What&apos;s The Sandbox?
+          What&apos;s The IMD 2026 at ITB?
         </h2>
 
         <div
@@ -26,7 +26,7 @@ export default function AboutSection() {
           data-aos='fade-up'
           data-aos-delay='200'
         >
-          The Sandbox is a premier technology festival hosted annually by IEEE
+          The IMD 2026 at ITB is a premier technology festival hosted annually by IMD 2026 at ITB
           ITB Student Branch. With a main theme of &ldquo;Shaping the Future of
           Industry with Smart Automation Technology&rdquo;, featuring a curated
           series of seminars and competitive challenges, the event empowers

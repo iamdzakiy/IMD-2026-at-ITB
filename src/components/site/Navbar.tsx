@@ -113,7 +113,7 @@ export default function Navbar() {
             <Link href='/' className='flex items-center'>
               <Image
                 src='/logo/logo-white.svg'
-                alt='Sandbox Logo'
+                alt='IMD 2026 at ITB Logo'
                 width={50}
                 height={50}
                 className='h-12 w-auto brightness-0'

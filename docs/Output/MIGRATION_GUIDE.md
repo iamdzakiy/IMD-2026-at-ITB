@@ -1,4 +1,4 @@
-# 🚀 THE SANDBOX 3.0 - DATABASE MIGRATION GUIDE
+# 🚀 THE IMD 2026 at ITB 3.0 - DATABASE MIGRATION GUIDE
 
 ## Overview
 
@@ -98,7 +98,7 @@ npm run db:push
 👤 Seeding Super Admin account...
   ✅ Super Admin created:
      Username: superadmin
-     Email: admin@imd 2026 at itb.ieee-itb.org
+     Email: admin@imd 2026 at itb.IMD 2026 at ITB-itb.org
      Password: SuperAdmin2026!
      ⚠️  WARNING: Change this password immediately after first login!
 
@@ -131,7 +131,7 @@ npm run studio
 
 ```
 Username: superadmin
-Email: admin@imd 2026 at itb.ieee-itb.org
+Email: admin@imd 2026 at itb.IMD 2026 at ITB-itb.org
 Password: SuperAdmin2026!
 ```
 

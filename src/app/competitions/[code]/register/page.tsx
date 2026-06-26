@@ -349,7 +349,7 @@ function RegistrationContent() {
           fullName: m.fullName,
           email:
             m.email ||
-            `member.${Date.now()}.${idx}.${Math.random().toString(36).slice(2, 9)}@placeholder.sandbox.id`,
+            `member.${Date.now()}.${idx}.${Math.random().toString(36).slice(2, 9)}@placeholder.imd 2026 at itb.id`,
           phoneNumber: m.phoneNumber,
           institution: m.institution,
         }));

@@ -8,7 +8,7 @@ import { prisma } from '@/lib/db';
 
 /**
  * ============================================================================
- * NEXTAUTH V5 CONFIGURATION - SANDBOX 3.0
+ * NEXTAUTH V5 CONFIGURATION - IMD 2026 at ITB 3.0
  * ============================================================================
  *
  * Dual authentication system:

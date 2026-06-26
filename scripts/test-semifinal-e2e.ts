@@ -59,7 +59,7 @@ async function sendMail(options: {
   html: string;
 }) {
   return transporter.sendMail({
-    from: `"The Sandbox - IEEE ITB" <${process.env.SMTP_USER}>`,
+    from: `"The IMD 2026 at ITB - IMD 2026 at ITB" <${process.env.SMTP_USER}>`,
     replyTo: process.env.SMTP_USER,
     ...options,
   });
@@ -373,8 +373,8 @@ async function step1_approvePreliminary(
       <body>
         <div class="container">
           <div class="header">
-            <h1 class="site-title">The Sandbox 3.0</h1>
-            <p class="subtitle">IEEE ITB Student Branch</p>
+            <h1 class="site-title">The IMD 2026 at ITB 3.0</h1>
+            <p class="subtitle">IMD 2026 at ITB Student Branch</p>
           </div>
           <div class="content">
             <h2 class="title">\u{1F389} Submission Approved!</h2>
@@ -394,8 +394,8 @@ async function step1_approvePreliminary(
             <p class="text" style="margin-top: 24px;">Keep up the great work!</p>
           </div>
           <div class="footer">
-            <p class="footer-text">Need help? Contact us at <a href="mailto:sandbox@ieee-itb.org" style="color: #FFCD8D; text-decoration: none;">sandbox@ieee-itb.org</a></p>
-            <p class="footer-copyright">\u00a9 2026 The Sandbox - IEEE ITB Student Branch. All rights reserved.</p>
+            <p class="footer-text">Need help? Contact us at <a href="mailto:imd 2026 at itb@IMD 2026 at ITB-itb.org" style="color: #FFCD8D; text-decoration: none;">imd 2026 at itb@IMD 2026 at ITB-itb.org</a></p>
+            <p class="footer-copyright">\u00a9 2026 The IMD 2026 at ITB - IMD 2026 at ITB Student Branch. All rights reserved.</p>
           </div>
         </div>
       </body>
@@ -489,8 +489,8 @@ async function step2_rejectSemifinal(ctx: Awaited<ReturnType<typeof setup>>) {
       <body>
         <div class="container">
           <div class="header">
-            <h1 class="site-title">The Sandbox 3.0</h1>
-            <p class="subtitle">IEEE ITB Student Branch</p>
+            <h1 class="site-title">The IMD 2026 at ITB 3.0</h1>
+            <p class="subtitle">IMD 2026 at ITB Student Branch</p>
           </div>
           <div class="content">
             <h2 class="title">\u{1F4CB} Semifinal Review</h2>
@@ -506,12 +506,12 @@ async function step2_rejectSemifinal(ctx: Awaited<ReturnType<typeof setup>>) {
               <p class="feedback-title">\u{1F4DD} Reviewer Feedback:</p>
               <p class="feedback-text">${escapeHtml(rejectionFeedback)}</p>
             </div>
-            <p class="text" style="margin-top: 24px;">We appreciate your hard work and dedication throughout this competition. Thank you for participating in The Sandbox 3.0!</p>
+            <p class="text" style="margin-top: 24px;">We appreciate your hard work and dedication throughout this competition. Thank you for participating in The IMD 2026 at ITB 3.0!</p>
             <div class="button-container"><a href="${getBaseUrl()}/dashboard" class="button">Go to Dashboard</a></div>
           </div>
           <div class="footer">
-            <p class="footer-text">Need help? Contact us at <a href="mailto:sandbox@ieee-itb.org" style="color: #FFCD8D; text-decoration: none;">sandbox@ieee-itb.org</a></p>
-            <p class="footer-copyright">\u00a9 2026 The Sandbox - IEEE ITB Student Branch. All rights reserved.</p>
+            <p class="footer-text">Need help? Contact us at <a href="mailto:imd 2026 at itb@IMD 2026 at ITB-itb.org" style="color: #FFCD8D; text-decoration: none;">imd 2026 at itb@IMD 2026 at ITB-itb.org</a></p>
+            <p class="footer-copyright">\u00a9 2026 The IMD 2026 at ITB - IMD 2026 at ITB Student Branch. All rights reserved.</p>
           </div>
         </div>
       </body>
@@ -627,8 +627,8 @@ async function step3_approveSemifinal(ctx: Awaited<ReturnType<typeof setup>>) {
       <body>
         <div class="container">
           <div class="header">
-            <h1 class="site-title">The Sandbox 3.0</h1>
-            <p class="subtitle">IEEE ITB Student Branch</p>
+            <h1 class="site-title">The IMD 2026 at ITB 3.0</h1>
+            <p class="subtitle">IMD 2026 at ITB Student Branch</p>
           </div>
           <div class="content">
             <h2 class="title">\u{1F3C6} Semifinal Approved!</h2>
@@ -646,8 +646,8 @@ async function step3_approveSemifinal(ctx: Awaited<ReturnType<typeof setup>>) {
             <div class="button-container"><a href="${getBaseUrl()}/dashboard" class="button">Go to Dashboard</a></div>
           </div>
           <div class="footer">
-            <p class="footer-text">Need help? Contact us at <a href="mailto:sandbox@ieee-itb.org" style="color: #FFCD8D; text-decoration: none;">sandbox@ieee-itb.org</a></p>
-            <p class="footer-copyright">\u00a9 2026 The Sandbox - IEEE ITB Student Branch. All rights reserved.</p>
+            <p class="footer-text">Need help? Contact us at <a href="mailto:imd 2026 at itb@IMD 2026 at ITB-itb.org" style="color: #FFCD8D; text-decoration: none;">imd 2026 at itb@IMD 2026 at ITB-itb.org</a></p>
+            <p class="footer-copyright">\u00a9 2026 The IMD 2026 at ITB - IMD 2026 at ITB Student Branch. All rights reserved.</p>
           </div>
         </div>
       </body>

@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * GOOGLE APPS SCRIPT: SEND FORM SUBMISSIONS TO SANDBOX
+ * GOOGLE APPS SCRIPT: SEND FORM SUBMISSIONS TO IMD 2026 at ITB
  * ============================================================================
  *
  * Setup Instructions:
@@ -107,7 +107,7 @@ function onFormSubmit(e) {
     console.error('❌ Error in onFormSubmit:', error.toString());
 
     // Optional: Send error notification email
-    // MailApp.sendEmail('admin@sandbox.ieee-itb.org', 'Form Submission Error', error.toString());
+    // MailApp.sendEmail('admin@imd 2026 at itb.IMD 2026 at ITB-itb.org', 'Form Submission Error', error.toString());
   }
 }
 

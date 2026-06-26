@@ -233,10 +233,10 @@ export default function RegisterPage() {
               <p className='text-[#9b7a6f] text-sm'>
                 Need help? Contact us at{' '}
                 <a
-                  href='mailto:sandbox@ieee-itb.org'
+                  href='mailto:imd 2026 at itb@IMD 2026 at ITB-itb.org'
                   className='text-[#FFCD8D] hover:underline'
                 >
-                  sandbox@ieee-itb.org
+                  imd 2026 at itb@IMD 2026 at ITB-itb.org
                 </a>
               </p>
             </div>
@@ -295,7 +295,7 @@ export default function RegisterPage() {
             <div className='flex justify-center mb-8'>
               <Image
                 src='/logo/logo-white.svg'
-                alt='Sandbox Logo'
+                alt='IMD 2026 at ITB Logo'
                 width={80}
                 height={80}
                 className='w-16 h-16'

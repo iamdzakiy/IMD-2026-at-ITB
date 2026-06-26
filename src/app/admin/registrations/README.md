@@ -350,4 +350,4 @@ For issues or questions:
 
 **Version:** 1.0.0  
 **Last Updated:** February 16, 2026  
-**Developed for:** The Sandbox 3.0 - IEEE ITB Student Branch
+**Developed for:** The IMD 2026 at ITB 3.0 - IMD 2026 at ITB Student Branch

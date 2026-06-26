@@ -19,7 +19,7 @@ export default async function CreateAdminPage() {
           Create Admin Account
         </h1>
         <p className='text-gray-600 mt-1'>
-          Add new admin staff to manage Sandbox 3.0
+          Add new admin staff to manage IMD 2026 at ITB 3.0
         </p>
       </div>
 

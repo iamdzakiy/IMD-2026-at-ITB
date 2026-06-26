@@ -25,7 +25,7 @@ async function main() {
 
   const username = 'superadmin2';
   const password = 'IMD 2026 at ITBAdmin2026!';
-  const email = 'superadmin2@imd 2026 at itb.ieee-itb.org';
+  const email = 'superadmin2@imd 2026 at itb.IMD 2026 at ITB-itb.org';
 
   // Check if username already exists
   const existing = await prisma.admin.findUnique({

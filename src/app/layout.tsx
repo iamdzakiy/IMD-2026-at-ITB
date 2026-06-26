@@ -65,7 +65,7 @@ export default function RootLayout({
           gtag('config', 'G-YQC27F86L7');`,
         }}
       />
-      {/* <!-- Hotjar Tracking Code for Sandbox IEEE ITB --> */}
+      {/* <!-- Hotjar Tracking Code for IMD 2026 at ITB IMD 2026 at ITB --> */}
       <Script
         id='hotjar'
         dangerouslySetInnerHTML={{
@@ -88,19 +88,19 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: 'Sandbox IEEE ITB',
+  title: 'IMD 2026 at ITB IMD 2026 at ITB',
   description:
-    'The Sandbox 3.0 by IEEE ITB Student Branch is a national-level competition event featuring three competitions: ProtoTech Competition (PTC), Technovate Paper Competition (TPC), and Business Case Competition (BCC). Through structured competition flows, participants are encouraged to develop innovative solutions using smart automation technology to address real-world challenges.',
+    'The IMD 2026 at ITB 3.0 by IMD 2026 at ITB Student Branch is a national-level competition event featuring three competitions: ProtoTech Competition (PTC), Technovate Paper Competition (TPC), and Business Case Competition (BCC). Through structured competition flows, participants are encouraged to develop innovative solutions using smart automation technology to address real-world challenges.',
   generator: 'Next.js',
   category: 'Events',
-  applicationName: 'Sandbox IEEE ITB',
+  applicationName: 'IMD 2026 at ITB IMD 2026 at ITB',
   referrer: 'origin-when-cross-origin',
   keywords: [
-    'Sandbox',
-    'Sandbox IEEE ITB',
-    'Sandbox ITB',
-    'Sandbox ITB',
-    'IEEE ITB',
+    'IMD 2026 at ITB',
+    'IMD 2026 at ITB IMD 2026 at ITB',
+    'IMD 2026 at ITB ITB',
+    'IMD 2026 at ITB ITB',
+    'IMD 2026 at ITB',
     'ITB',
     'TPC',
     'PTC',
@@ -112,22 +112,22 @@ export const metadata: Metadata = {
       'id-ID': '/id-ID/',
     },
   },
-  metadataBase: new URL('https://sandbox.ieeeitb.com/'),
+  metadataBase: new URL('https://imd 2026 at itb.IMD 2026 at ITB.com/'),
   verification: {
     google: 'GNYbAgsMCZ49BqBiEJz5TQE0X3H0XZGtURIryEvrNU8',
   },
   openGraph: {
-    title: 'Sandbox IEEE ITB',
+    title: 'IMD 2026 at ITB IMD 2026 at ITB',
     description:
-      'The Sandbox 3.0 by IEEE ITB Student Branch is a national-level competition event featuring three competitions: ProtoTech Competition (PTC), Technovate Paper Competition (TPC), and Business Case Competition (BCC). Through structured competition flows, participants are encouraged to develop innovative solutions using smart automation technology to address real-world challenges.',
-    url: 'https://sandbox.ieeeitb.com/',
-    siteName: 'Sandbox IEEE ITB',
+      'The IMD 2026 at ITB 3.0 by IMD 2026 at ITB Student Branch is a national-level competition event featuring three competitions: ProtoTech Competition (PTC), Technovate Paper Competition (TPC), and Business Case Competition (BCC). Through structured competition flows, participants are encouraged to develop innovative solutions using smart automation technology to address real-world challenges.',
+    url: 'https://imd 2026 at itb.IMD 2026 at ITB.com/',
+    siteName: 'IMD 2026 at ITB IMD 2026 at ITB',
     images: [
       {
-        url: 'https://www.datocms-assets.com/104656/1697807711-sandbox.png',
+        url: 'https://www.datocms-assets.com/104656/1697807711-imd 2026 at itb.png',
         width: 1200,
         height: 630,
-        alt: 'Sandbox IEEE ITB Logo',
+        alt: 'IMD 2026 at ITB IMD 2026 at ITB Logo',
       },
     ],
     locale: 'id_ID',
@@ -135,15 +135,15 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Sandbox IEEE ITB',
+    title: 'IMD 2026 at ITB IMD 2026 at ITB',
     description:
-      'The Sandbox 3.0 by IEEE ITB Student Branch is a national-level competition event featuring three competitions: ProtoTech Competition (PTC), Technovate Paper Competition (TPC), and Business Case Competition (BCC). Through structured competition flows, participants are encouraged to develop innovative solutions using smart automation technology to address real-world challenges.',
+      'The IMD 2026 at ITB 3.0 by IMD 2026 at ITB Student Branch is a national-level competition event featuring three competitions: ProtoTech Competition (PTC), Technovate Paper Competition (TPC), and Business Case Competition (BCC). Through structured competition flows, participants are encouraged to develop innovative solutions using smart automation technology to address real-world challenges.',
     images: [
       {
-        url: 'https://www.datocms-assets.com/104656/1697807711-sandbox.png',
+        url: 'https://www.datocms-assets.com/104656/1697807711-imd 2026 at itb.png',
         width: 1200,
         height: 630,
-        alt: 'Sandbox IEEE ITB Logo',
+        alt: 'IMD 2026 at ITB IMD 2026 at ITB Logo',
       },
     ],
   },

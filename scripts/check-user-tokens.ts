@@ -3,7 +3,7 @@ import { prisma } from '../src/lib/db';
 
 async function checkUserTokens() {
   const user = await prisma.user.findUnique({
-    where: { email: 'sandboxieeewebsite@gmail.com' },
+    where: { email: 'imd 2026 at itbieeewebsite@gmail.com' },
     include: {
       activateTokens: {
         orderBy: { createdAt: 'desc' },

@@ -18,22 +18,22 @@ export default function Footer() {
             </h3>
             <div className='space-y-2'>
               <a
-                href='https://www.instagram.com/thesandbox.itb/'
+                href='https://www.instagram.com/theimd 2026 at itb.itb/'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='flex items-center gap-2 text-gray-600 hover:text-[#5A2424] transition-colors font-gemunu text-sm'
               >
                 <Instagram className='h-4 w-4' />
-                <span>@thesandbox.itb</span>
+                <span>@theimd 2026 at itb.itb</span>
               </a>
               <a
-                href='https://www.linkedin.com/company/the-sandbox-by-ieee-itb/'
+                href='https://www.linkedin.com/company/the-imd 2026 at itb-by-IMD 2026 at ITB-itb/'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='flex items-center gap-2 text-gray-600 hover:text-[#5A2424] transition-colors font-gemunu text-sm'
               >
                 <Linkedin className='h-4 w-4' />
-                <span>The Sandbox by IEEE ITB</span>
+                <span>The IMD 2026 at ITB by IMD 2026 at ITB</span>
               </a>
             </div>
           </div>
@@ -66,7 +66,7 @@ export default function Footer() {
         {/* Bottom - Copyright */}
         <div className='pt-8 mt-8 border-t border-gray-200'>
           <p className='text-center text-gray-500 text-sm font-gemunu'>
-            © 2026 IEEE SANDBOX. All Rights Reserved.
+            © 2026 IMD 2026 at ITB IMD 2026 at ITB. All Rights Reserved.
           </p>
         </div>
       </div>

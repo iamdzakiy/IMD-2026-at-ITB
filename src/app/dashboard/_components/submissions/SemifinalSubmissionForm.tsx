@@ -50,7 +50,7 @@ const SEMIFINAL_CONFIG: Record<
         label: 'Research Paper',
         type: 'file',
         accept: '.pdf,.doc,.docx',
-        description: 'IEEE format, PDF or Word, max 20MB',
+        description: 'IMD 2026 at ITB format, PDF or Word, max 20MB',
       },
       {
         key: 'presentationUrl',

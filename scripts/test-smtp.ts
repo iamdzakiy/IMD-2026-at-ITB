@@ -31,11 +31,11 @@ async function testSMTP() {
     console.log('✅ SMTP connection successful!\n');
 
     // Send test email
-    console.log('📧 Sending test email to sandboxieeewebsite@gmail.com...');
+    console.log('📧 Sending test email to imd 2026 at itbieeewebsite@gmail.com...');
     const info = await transporter.sendMail({
-      from: `"The Sandbox Test" <${process.env.SMTP_USER}>`,
-      to: 'sandboxieeewebsite@gmail.com',
-      subject: 'Test Email from Sandbox',
+      from: `"The IMD 2026 at ITB Test" <${process.env.SMTP_USER}>`,
+      to: 'imd 2026 at itbieeewebsite@gmail.com',
+      subject: 'Test Email from IMD 2026 at ITB',
       html: `
         <h1>Test Email</h1>
         <p>If you receive this, SMTP is working correctly!</p>
@@ -46,7 +46,7 @@ async function testSMTP() {
     console.log('✅ Test email sent successfully!');
     console.log('Message ID:', info.messageId);
     console.log('Response:', info.response);
-    console.log('\n✉️  Check your inbox: sandboxieeewebsite@gmail.com');
+    console.log('\n✉️  Check your inbox: imd 2026 at itbieeewebsite@gmail.com');
   } catch (error) {
     console.error('\n❌ Error:', error);
   }

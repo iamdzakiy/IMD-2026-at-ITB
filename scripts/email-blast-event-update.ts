@@ -27,8 +27,8 @@ import { getBaseUrl } from '../src/lib/base-url';
 const EVENT_CODE = 'yif-x-grand-seminar';
 const CUTOFF_UTC = new Date('2026-03-06T04:40:00.000Z'); // 11:40 WIB
 const BASE_URL = getBaseUrl();
-const FROM_EMAIL = process.env.SMTP_USER || 'sandbox@ieee-itb.org';
-const FROM_NAME = 'The Sandbox 3.0 - IEEE ITB';
+const FROM_EMAIL = process.env.SMTP_USER || 'imd 2026 at itb@IMD 2026 at ITB-itb.org';
+const FROM_NAME = 'The IMD 2026 at ITB 3.0 - IMD 2026 at ITB';
 const LOGO_URL = `${BASE_URL}/logo/logo-white.svg`;
 const TICKET_URL = `${BASE_URL}/event/${EVENT_CODE}/register`;
 const COMPETITIONS_URL = `${BASE_URL}/competitions`;
@@ -186,9 +186,9 @@ function buildUpdateEmailHtml(name: string, eventName: string): string {
 <body>
   <div class="container">
     <div class="header">
-      <img src="${LOGO_URL}" alt="The Sandbox 3.0" width="180" style="display: block; margin: 0 auto 16px auto; max-width: 180px; height: auto;" />
-      <h1 class="site-title">The Sandbox 3.0</h1>
-      <p class="subtitle">IEEE ITB Student Branch</p>
+      <img src="${LOGO_URL}" alt="The IMD 2026 at ITB 3.0" width="180" style="display: block; margin: 0 auto 16px auto; max-width: 180px; height: auto;" />
+      <h1 class="site-title">The IMD 2026 at ITB 3.0</h1>
+      <p class="subtitle">IMD 2026 at ITB Student Branch</p>
     </div>
 
     <div class="content">
@@ -235,12 +235,12 @@ function buildUpdateEmailHtml(name: string, eventName: string): string {
     <div class="footer">
       <p class="footer-text">
         Need help? Contact us at
-        <a href="mailto:sandbox@ieee-itb.org" style="color: #FFCD8D; text-decoration: none;">
-          sandbox@ieee-itb.org
+        <a href="mailto:imd 2026 at itb@IMD 2026 at ITB-itb.org" style="color: #FFCD8D; text-decoration: none;">
+          imd 2026 at itb@IMD 2026 at ITB-itb.org
         </a>
       </p>
       <p class="footer-copyright">
-        © 2026 The Sandbox - IEEE ITB Student Branch. All rights reserved.
+        © 2026 The IMD 2026 at ITB - IMD 2026 at ITB Student Branch. All rights reserved.
       </p>
     </div>
   </div>
@@ -338,7 +338,7 @@ async function main() {
 
   console.log('🚀 Step 2: Sending emails...\n');
 
-  const EVENT_NAME = 'YIF x Grand Seminar: The Sandbox 3.0';
+  const EVENT_NAME = 'YIF x Grand Seminar: The IMD 2026 at ITB 3.0';
   const results: {
     email: string;
     name: string;

@@ -69,4 +69,4 @@ temp/
 service-account*.json
 
 # Uploaded files
-/public/uploads/
+/private/uploads/

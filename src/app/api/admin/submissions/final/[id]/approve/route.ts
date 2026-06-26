@@ -107,8 +107,8 @@ export async function POST(
         <body>
           <div class="container">
             <div class="header">
-              <h1 class="site-title">The Sandbox 3.0</h1>
-              <p class="subtitle">IEEE ITB Student Branch</p>
+              <h1 class="site-title">The IMD 2026 at ITB 3.0</h1>
+              <p class="subtitle">IMD 2026 at ITB Student Branch</p>
             </div>
             <div class="content">
               <h2 class="title">\u{1F389} Final Submission Accepted!</h2>
@@ -126,8 +126,8 @@ export async function POST(
               <div class="button-container"><a href="${getBaseUrl()}/dashboard" class="button">Go to Dashboard</a></div>
             </div>
             <div class="footer">
-              <p class="footer-text">Need help? Contact us at <a href="mailto:sandbox@ieee-itb.org" style="color: #FFCD8D; text-decoration: none;">sandbox@ieee-itb.org</a></p>
-              <p class="footer-copyright">\u00a9 2026 The Sandbox - IEEE ITB Student Branch. All rights reserved.</p>
+              <p class="footer-text">Need help? Contact us at <a href="mailto:imd 2026 at itb@IMD 2026 at ITB-itb.org" style="color: #FFCD8D; text-decoration: none;">imd 2026 at itb@IMD 2026 at ITB-itb.org</a></p>
+              <p class="footer-copyright">\u00a9 2026 The IMD 2026 at ITB - IMD 2026 at ITB Student Branch. All rights reserved.</p>
             </div>
           </div>
         </body>

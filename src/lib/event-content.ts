@@ -41,7 +41,7 @@ export const EVENT_CONTENT: Record<string, EventContent> = {
     name: 'YIF x Grand Seminar',
     tagline: 'Inspiring Minds, Shaping The Future',
     description:
-      'YIF x Grand Seminar is a flagship event of The Sandbox 3.0 that combines a world-class seminar with a global youth discussion platform. Featuring expert insights alongside youth perspectives, this event explores Smart Automation Technology and its impact on industry and society. It focuses on industry perspectives on automation and smart systems, youth innovation, future skills, and technology-driven problem solving — bridging discussion-based learning with real innovation showcased in the Exhibition.',
+      'YIF x Grand Seminar is a flagship event of The IMD 2026 at ITB 3.0 that combines a world-class seminar with a global youth discussion platform. Featuring expert insights alongside youth perspectives, this event explores Smart Automation Technology and its impact on industry and society. It focuses on industry perspectives on automation and smart systems, youth innovation, future skills, and technology-driven problem solving — bridging discussion-based learning with real innovation showcased in the Exhibition.',
     date: 'March 7, 2026',
     dateISO: '2026-03-07T09:00:00+07:00',
     venue:

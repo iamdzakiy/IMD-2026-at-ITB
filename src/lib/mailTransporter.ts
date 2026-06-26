@@ -16,7 +16,7 @@ export const sendMail = async (options: {
   html: string;
 }) => {
   return transporter.sendMail({
-    from: `"The Sandbox - IEEE ITB" <${process.env.SMTP_USER}>`,
+    from: `"The IMD 2026 at ITB - IMD 2026 at ITB" <${process.env.SMTP_USER}>`,
     replyTo: process.env.SMTP_USER,
     ...options,
   });

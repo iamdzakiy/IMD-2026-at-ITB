@@ -71,7 +71,7 @@ export default function EventTicket({
           {/* Header */}
           <div className='px-6 sm:px-8 pt-8 pb-4 text-center'>
             <p className='text-[#FFCD8D]/60 text-xs font-semibold tracking-[0.3em] uppercase mb-2'>
-              The Sandbox 3.0 — IEEE ITB
+              The IMD 2026 at ITB 3.0 — IMD 2026 at ITB
             </p>
             <h2 className='text-2xl sm:text-3xl font-bold bg-gradient-to-r from-[#FFE4B5] via-[#FFCD8D] to-[#FFE4B5] bg-clip-text text-transparent'>
               {eventName}
@@ -192,7 +192,7 @@ export default function EventTicket({
               ))}
             </div>
             <p className='text-center text-[#FFCD8D]/30 text-[10px] mt-2 tracking-widest font-mono'>
-              SANDBOX-3.0-YIF-GS
+              IMD 2026 at ITB-3.0-YIF-GS
             </p>
           </div>
 

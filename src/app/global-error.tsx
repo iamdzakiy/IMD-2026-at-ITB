@@ -38,7 +38,7 @@ export default function GlobalError({
               {/* Left Mascot */}
               <Image
                 src={'/404assets/sand.png'}
-                alt='Sandbox Mascot'
+                alt='IMD 2026 at ITB Mascot'
                 className='object-contain animate-shake w-[80px] h-[160px] sm:w-[100px] sm:h-[200px] lg:w-[120px] lg:h-[240px] transition-all duration-300'
                 width={165}
                 height={220}
@@ -57,7 +57,7 @@ export default function GlobalError({
               {/* Right Mascot */}
               <Image
                 src={'/404assets/sand.png'}
-                alt='Sandbox Mascot'
+                alt='IMD 2026 at ITB Mascot'
                 className='object-contain animate-shake w-[80px] h-[160px] sm:w-[100px] sm:h-[200px] lg:w-[120px] lg:h-[240px] transition-all duration-300'
                 width={165}
                 height={220}

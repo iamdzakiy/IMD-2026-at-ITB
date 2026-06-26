@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- * THE SANDBOX 3.0 - DATABASE SEED SCRIPT
+ * THE IMD 2026 at ITB 3.0 - DATABASE SEED SCRIPT
  * ============================================================================
  *
  * Seeds:
@@ -460,7 +460,7 @@ async function main() {
     update: {},
     create: {
       username: 'superadmin',
-      email: 'admin@imd 2026 at itb.ieee-itb.org',
+      email: 'admin@imd 2026 at itb.IMD 2026 at ITB-itb.org',
       password: hashedPassword,
       adminRole: 'super_admin',
       isActive: true,

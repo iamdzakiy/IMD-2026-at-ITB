@@ -183,7 +183,7 @@ export default async function AdminDashboardPage() {
           Welcome back, {session?.admin?.username}! 👋
         </h1>
         <p className='text-blue-100'>
-          Here&apos;s what&apos;s happening with Sandbox 3.0 today
+          Here&apos;s what&apos;s happening with IMD 2026 at ITB 3.0 today
         </p>
       </div>
 

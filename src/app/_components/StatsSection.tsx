@@ -4,17 +4,17 @@ export default function StatsSection() {
   const stats = [
     {
       value: '4.9/5',
-      label: 'The Sandbox 2.0 Feedback',
+      label: 'The IMD 2026 at ITB 2.0 Feedback',
       mascot: '/mascots/mascot-3.svg',
     },
     {
       value: 'Rp 25.000.000++',
-      label: 'Total Prize Pool for All The Sandbox 3.0 Competitions',
+      label: 'Total Prize Pool for All The IMD 2026 at ITB 3.0 Competitions',
       mascot: '/mascots/mascot-4.svg',
     },
     {
       value: '300+',
-      label: 'Teams involved in The Sandbox 2.0',
+      label: 'Teams involved in The IMD 2026 at ITB 2.0',
       mascot: '/mascots/mascot-5.svg',
     },
   ];

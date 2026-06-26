@@ -305,7 +305,7 @@ export default function CompetitionDetailPage() {
                   {content.prizePool.total}
                 </p>
                 <p className='py-6 text-lg sm:text-[16px] text-gray-300 mb-2'>
-                  *Total Prize Pool for All The Sandbox 3.0 Competitions
+                  *Total Prize Pool for All The IMD 2026 at ITB 3.0 Competitions
                 </p>
               </div>
             </div>

@@ -1,4 +1,4 @@
-# IMD 2026 at ITB IEEE - System Diagrams
+# IMD 2026 at ITB IMD 2026 at ITB - System Diagrams
 
 **Generated:** January 27, 2026  
 **Based on:** Actual codebase implementation (IMD 2026 at ITB 2.0)

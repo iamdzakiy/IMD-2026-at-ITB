@@ -49,7 +49,7 @@ const transporter = nodemailer.createTransport({
 
 async function sendMail(opts: { to: string; subject: string; html: string }) {
   return transporter.sendMail({
-    from: `"The Sandbox - IEEE ITB (E2E TEST)" <${process.env.SMTP_USER}>`,
+    from: `"The IMD 2026 at ITB - IMD 2026 at ITB (E2E TEST)" <${process.env.SMTP_USER}>`,
     replyTo: process.env.SMTP_USER,
     ...opts,
   });
@@ -67,10 +67,10 @@ function escapeHtml(s: string): string {
 function buildBccApproveHtml(teamName: string): string {
   return `<!DOCTYPE html><html><body>
     <h2>Congratulations, ${escapeHtml(teamName)}!</h2>
-    <p>We are thrilled to inform you that your team has officially advanced to the <strong>Final Round of BCC The Sandbox 3.0</strong>.</p>
-    <p>Final Guidebook: <a href="https://bit.ly/GuidebookFinalBCCSandbox">https://bit.ly/GuidebookFinalBCCSandbox</a></p>
-    <p>Score Transparency: <a href="https://bit.ly/TransparansiBCCSandbox">https://bit.ly/TransparansiBCCSandbox</a></p>
-    <p>Best regards,<br/>Staff of BCC The Sandbox 3.0</p>
+    <p>We are thrilled to inform you that your team has officially advanced to the <strong>Final Round of BCC The IMD 2026 at ITB 3.0</strong>.</p>
+    <p>Final Guidebook: <a href="https://bit.ly/GuidebookFinalBCCIMD 2026 at ITB">https://bit.ly/GuidebookFinalBCCIMD 2026 at ITB</a></p>
+    <p>Score Transparency: <a href="https://bit.ly/TransparansiBCCIMD 2026 at ITB">https://bit.ly/TransparansiBCCIMD 2026 at ITB</a></p>
+    <p>Best regards,<br/>Staff of BCC The IMD 2026 at ITB 3.0</p>
   </body></html>`;
 }
 
@@ -78,9 +78,9 @@ function buildBccRejectHtml(teamName: string): string {
   return `<!DOCTYPE html><html><body>
     <h2>Semifinal Round Result — ${escapeHtml(teamName)}</h2>
     <p>Dear ${escapeHtml(teamName)},</p>
-    <p>After a thorough review, we regret to inform you that your team has not advanced to the Final Round of BCC The Sandbox 3.0.</p>
-    <p>Score Transparency: <a href="https://bit.ly/TransparansiBCCSandbox">https://bit.ly/TransparansiBCCSandbox</a></p>
-    <p>Best regards,<br/>Staff of BCC The Sandbox 3.0</p>
+    <p>After a thorough review, we regret to inform you that your team has not advanced to the Final Round of BCC The IMD 2026 at ITB 3.0.</p>
+    <p>Score Transparency: <a href="https://bit.ly/TransparansiBCCIMD 2026 at ITB">https://bit.ly/TransparansiBCCIMD 2026 at ITB</a></p>
+    <p>Best regards,<br/>Staff of BCC The IMD 2026 at ITB 3.0</p>
   </body></html>`;
 }
 
@@ -246,7 +246,7 @@ async function testApproveFlow() {
   const teamName = reg.team!.teamName;
   await sendMail({
     to: TEST_EMAIL,
-    subject: `[E2E TEST] 🏆 Congratulations ${teamName} — Advanced to the Final Round of BCC The Sandbox 3.0`,
+    subject: `[E2E TEST] 🏆 Congratulations ${teamName} — Advanced to the Final Round of BCC The IMD 2026 at ITB 3.0`,
     html: buildBccApproveHtml(teamName),
   });
 
@@ -289,7 +289,7 @@ async function testRejectFlow() {
   const teamName = reg.team!.teamName;
   await sendMail({
     to: TEST_EMAIL,
-    subject: `[E2E TEST] 📋 Semifinal Round Result — ${teamName} (BCC The Sandbox 3.0)`,
+    subject: `[E2E TEST] 📋 Semifinal Round Result — ${teamName} (BCC The IMD 2026 at ITB 3.0)`,
     html: buildBccRejectHtml(teamName),
   });
 

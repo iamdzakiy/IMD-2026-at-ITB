@@ -1,10 +1,10 @@
 {
-  "name": "Sandbox IEEE ITB",
-  "short_name": "Sandbox IEEE ITB",
+  "name": "IMD 2026 at ITB IMD 2026 at ITB",
+  "short_name": "IMD 2026 at ITB IMD 2026 at ITB",
   "display": "browser",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
-  "description": "The Sandbox 3.0 by IEEE ITB Student Branch is a national-level competition event featuring three competitions: ProtoTech Competition (PTC), Technovate Paper Competition (TPC), and Business Case Competition (BCC). Through structured competition flows, participants are encouraged to develop innovative solutions using smart automation technology to address real-world challenges.",
+  "description": "The IMD 2026 at ITB 3.0 by IMD 2026 at ITB Student Branch is a national-level competition event featuring three competitions: ProtoTech Competition (PTC), Technovate Paper Competition (TPC), and Business Case Competition (BCC). Through structured competition flows, participants are encouraged to develop innovative solutions using smart automation technology to address real-world challenges.",
   "icons": [
     {
       "src": "/favicon.ico",

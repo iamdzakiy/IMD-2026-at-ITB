@@ -9,9 +9,9 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      question: 'What is The Sandbox?',
+      question: 'What is The IMD 2026 at ITB?',
       answer:
-        'The Sandbox is an annual national-level competition event organized by IEEE ITB Student Branch, featuring three competitions: ProtoTech Competition (PTC), Technovate Paper Competition (TPC), and Business Case Competition (BCC).',
+        'The IMD 2026 at ITB is an annual national-level competition event organized by IMD 2026 at ITB Student Branch, featuring three competitions: ProtoTech Competition (PTC), Technovate Paper Competition (TPC), and Business Case Competition (BCC).',
     },
     {
       question: 'Who can participate?',

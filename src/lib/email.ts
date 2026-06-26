@@ -15,8 +15,8 @@ import { getBaseUrl } from './base-url';
 import { transporter } from './mailTransporter';
 
 const BASE_URL = getBaseUrl();
-const FROM_EMAIL = process.env.SMTP_USER || 'sandbox@ieee-itb.org';
-const FROM_NAME = 'The Sandbox 3.0 - IEEE ITB';
+const FROM_EMAIL = process.env.SMTP_USER || 'imd 2026 at itb@IMD 2026 at ITB-itb.org';
+const FROM_NAME = 'The IMD 2026 at ITB 3.0 - IMD 2026 at ITB';
 const LOGO_URL = `${BASE_URL}/logo/logo-white.svg`;
 
 /**
@@ -165,15 +165,15 @@ export async function sendActivationEmail(
 <body>
   <div class="container">
     <div class="header">
-      <img src="${LOGO_URL}" alt="The Sandbox 3.0" width="180" style="display: block; margin: 0 auto 16px auto; max-width: 180px; height: auto;" />
-      <h1 class="site-title">The Sandbox 3.0</h1>
-      <p class="subtitle">IEEE ITB Student Branch</p>
+      <img src="${LOGO_URL}" alt="The IMD 2026 at ITB 3.0" width="180" style="display: block; margin: 0 auto 16px auto; max-width: 180px; height: auto;" />
+      <h1 class="site-title">The IMD 2026 at ITB 3.0</h1>
+      <p class="subtitle">IMD 2026 at ITB Student Branch</p>
     </div>
 
     <div class="content">
       <h2 class="title">Welcome, ${name}!</h2>
       
-      <p class="text">Thank you for registering for <strong style="color: #FFCD8D;">The Sandbox 3.0</strong>! We're excited to have you join our competition.</p>
+      <p class="text">Thank you for registering for <strong style="color: #FFCD8D;">The IMD 2026 at ITB 3.0</strong>! We're excited to have you join our competition.</p>
       
       <p class="text">To complete your registration and activate your account, please verify your email address by clicking the button below:</p>
 
@@ -208,12 +208,12 @@ export async function sendActivationEmail(
     <div class="footer">
       <p class="footer-text">
         Need help? Contact us at 
-        <a href="mailto:sandbox@ieee-itb.org" style="color: #FFCD8D; text-decoration: none;">
-          sandbox@ieee-itb.org
+        <a href="mailto:imd 2026 at itb@IMD 2026 at ITB-itb.org" style="color: #FFCD8D; text-decoration: none;">
+          imd 2026 at itb@IMD 2026 at ITB-itb.org
         </a>
       </p>
       <p class="footer-copyright">
-        © 2026 The Sandbox - IEEE ITB Student Branch. All rights reserved.
+        © 2026 The IMD 2026 at ITB - IMD 2026 at ITB Student Branch. All rights reserved.
       </p>
     </div>
   </div>
@@ -225,7 +225,7 @@ export async function sendActivationEmail(
     await transporter.sendMail({
       from: `${FROM_NAME} <${FROM_EMAIL}>`,
       to,
-      subject: '✅ Activate Your Sandbox Account - Action Required',
+      subject: '✅ Activate Your IMD 2026 at ITB Account - Action Required',
       html,
     });
 
@@ -383,9 +383,9 @@ export async function sendRegistrationApprovedEmail(
 <body>
   <div class="container">
     <div class="header">
-      <img src="${LOGO_URL}" alt="The Sandbox 3.0" width="180" style="display: block; margin: 0 auto 16px auto; max-width: 180px; height: auto;" />
-      <h1 class="site-title">The Sandbox 3.0</h1>
-      <p class="subtitle">IEEE ITB Student Branch</p>
+      <img src="${LOGO_URL}" alt="The IMD 2026 at ITB 3.0" width="180" style="display: block; margin: 0 auto 16px auto; max-width: 180px; height: auto;" />
+      <h1 class="site-title">The IMD 2026 at ITB 3.0</h1>
+      <p class="subtitle">IMD 2026 at ITB Student Branch</p>
     </div>
 
     <div class="content">
@@ -437,12 +437,12 @@ export async function sendRegistrationApprovedEmail(
     <div class="footer">
       <p class="footer-text">
         Need help? Contact us at 
-        <a href="mailto:sandbox@ieee-itb.org" style="color: #FFCD8D; text-decoration: none;">
-          sandbox@ieee-itb.org
+        <a href="mailto:imd 2026 at itb@IMD 2026 at ITB-itb.org" style="color: #FFCD8D; text-decoration: none;">
+          imd 2026 at itb@IMD 2026 at ITB-itb.org
         </a>
       </p>
       <p class="footer-copyright">
-        © 2026 The Sandbox - IEEE ITB Student Branch. All rights reserved.
+        © 2026 The IMD 2026 at ITB - IMD 2026 at ITB Student Branch. All rights reserved.
       </p>
     </div>
   </div>
@@ -573,9 +573,9 @@ export async function sendRegistrationRejectedEmail(
 <body>
   <div class="container">
     <div class="header">
-      <img src="${LOGO_URL}" alt="The Sandbox 3.0" width="180" style="display: block; margin: 0 auto 16px auto; max-width: 180px; height: auto;" />
-      <h1 class="site-title">The Sandbox 3.0</h1>
-      <p class="subtitle">IEEE ITB Student Branch</p>
+      <img src="${LOGO_URL}" alt="The IMD 2026 at ITB 3.0" width="180" style="display: block; margin: 0 auto 16px auto; max-width: 180px; height: auto;" />
+      <h1 class="site-title">The IMD 2026 at ITB 3.0</h1>
+      <p class="subtitle">IMD 2026 at ITB Student Branch</p>
     </div>
 
     <div class="content">
@@ -583,7 +583,7 @@ export async function sendRegistrationRejectedEmail(
 
       <p class="text">Dear ${name},</p>
       
-      <p class="text">Thank you for your interest in participating in The Sandbox 3.0. Unfortunately, we regret to inform you that your team registration could not be approved at this time.</p>
+      <p class="text">Thank you for your interest in participating in The IMD 2026 at ITB 3.0. Unfortunately, we regret to inform you that your team registration could not be approved at this time.</p>
 
       ${
         reason
@@ -602,12 +602,12 @@ export async function sendRegistrationRejectedEmail(
     <div class="footer">
       <p class="footer-text">
         Contact us at 
-        <a href="mailto:sandbox@ieee-itb.org" style="color: #FFCD8D; text-decoration: none;">
-          sandbox@ieee-itb.org
+        <a href="mailto:imd 2026 at itb@IMD 2026 at ITB-itb.org" style="color: #FFCD8D; text-decoration: none;">
+          imd 2026 at itb@IMD 2026 at ITB-itb.org
         </a>
       </p>
       <p class="footer-copyright">
-        © 2026 The Sandbox - IEEE ITB Student Branch. All rights reserved.
+        © 2026 The IMD 2026 at ITB - IMD 2026 at ITB Student Branch. All rights reserved.
       </p>
     </div>
   </div>
@@ -619,7 +619,7 @@ export async function sendRegistrationRejectedEmail(
     await transporter.sendMail({
       from: `${FROM_NAME} <${FROM_EMAIL}>`,
       to,
-      subject: 'Registration Update - The Sandbox 3.0',
+      subject: 'Registration Update - The IMD 2026 at ITB 3.0',
       html,
     });
 
@@ -769,9 +769,9 @@ export async function sendPasswordResetEmail(
 <body>
   <div class="container">
     <div class="header">
-      <img src="${LOGO_URL}" alt="The Sandbox 3.0" width="180" style="display: block; margin: 0 auto 16px auto; max-width: 180px; height: auto;" />
-      <h1 class="site-title">The Sandbox 3.0</h1>
-      <p class="subtitle">IEEE ITB Student Branch</p>
+      <img src="${LOGO_URL}" alt="The IMD 2026 at ITB 3.0" width="180" style="display: block; margin: 0 auto 16px auto; max-width: 180px; height: auto;" />
+      <h1 class="site-title">The IMD 2026 at ITB 3.0</h1>
+      <p class="subtitle">IMD 2026 at ITB Student Branch</p>
     </div>
 
     <div class="content">
@@ -779,7 +779,7 @@ export async function sendPasswordResetEmail(
       
       <p class="text">Hi ${name},</p>
       
-      <p class="text">We received a request to reset your password for your Sandbox account. Click the button below to create a new password:</p>
+      <p class="text">We received a request to reset your password for your IMD 2026 at ITB account. Click the button below to create a new password:</p>
 
       <div class="button-container">
         <a href="${resetUrl}" class="button">
@@ -811,12 +811,12 @@ export async function sendPasswordResetEmail(
     <div class="footer">
       <p class="footer-text">
         Need help? Contact us at 
-        <a href="mailto:sandbox@ieee-itb.org" style="color: #FFCD8D; text-decoration: none;">
-          sandbox@ieee-itb.org
+        <a href="mailto:imd 2026 at itb@IMD 2026 at ITB-itb.org" style="color: #FFCD8D; text-decoration: none;">
+          imd 2026 at itb@IMD 2026 at ITB-itb.org
         </a>
       </p>
       <p class="footer-copyright">
-        © 2026 The Sandbox - IEEE ITB Student Branch. All rights reserved.
+        © 2026 The IMD 2026 at ITB - IMD 2026 at ITB Student Branch. All rights reserved.
       </p>
     </div>
   </div>
@@ -828,7 +828,7 @@ export async function sendPasswordResetEmail(
     await transporter.sendMail({
       from: `${FROM_NAME} <${FROM_EMAIL}>`,
       to,
-      subject: '🔒 Reset Your Password - The Sandbox 3.0',
+      subject: '🔒 Reset Your Password - The IMD 2026 at ITB 3.0',
       html,
     });
 
@@ -987,9 +987,9 @@ export async function sendEventApprovalEmail(
 <body>
   <div class="container">
     <div class="header">
-      <img src="${LOGO_URL}" alt="The Sandbox 3.0" width="180" style="display: block; margin: 0 auto 16px auto; max-width: 180px; height: auto;" />
-      <h1 class="site-title">The Sandbox 3.0</h1>
-      <p class="subtitle">IEEE ITB Student Branch</p>
+      <img src="${LOGO_URL}" alt="The IMD 2026 at ITB 3.0" width="180" style="display: block; margin: 0 auto 16px auto; max-width: 180px; height: auto;" />
+      <h1 class="site-title">The IMD 2026 at ITB 3.0</h1>
+      <p class="subtitle">IMD 2026 at ITB Student Branch</p>
     </div>
 
     <div class="content">
@@ -1026,12 +1026,12 @@ export async function sendEventApprovalEmail(
     <div class="footer">
       <p class="footer-text">
         Need help? Contact us at
-        <a href="mailto:sandbox@ieee-itb.org" style="color: #FFCD8D; text-decoration: none;">
-          sandbox@ieee-itb.org
+        <a href="mailto:imd 2026 at itb@IMD 2026 at ITB-itb.org" style="color: #FFCD8D; text-decoration: none;">
+          imd 2026 at itb@IMD 2026 at ITB-itb.org
         </a>
       </p>
       <p class="footer-copyright">
-        © 2026 The Sandbox - IEEE ITB Student Branch. All rights reserved.
+        © 2026 The IMD 2026 at ITB - IMD 2026 at ITB Student Branch. All rights reserved.
       </p>
     </div>
   </div>
@@ -1201,9 +1201,9 @@ export async function sendEventRegistrationConfirmationEmail(
 <body>
   <div class="container">
     <div class="header">
-      <img src="${LOGO_URL}" alt="The Sandbox 3.0" width="180" style="display: block; margin: 0 auto 16px auto; max-width: 180px; height: auto;" />
-      <h1 class="site-title">The Sandbox 3.0</h1>
-      <p class="subtitle">IEEE ITB Student Branch</p>
+      <img src="${LOGO_URL}" alt="The IMD 2026 at ITB 3.0" width="180" style="display: block; margin: 0 auto 16px auto; max-width: 180px; height: auto;" />
+      <h1 class="site-title">The IMD 2026 at ITB 3.0</h1>
+      <p class="subtitle">IMD 2026 at ITB Student Branch</p>
     </div>
 
     <div class="content">
@@ -1242,12 +1242,12 @@ export async function sendEventRegistrationConfirmationEmail(
     <div class="footer">
       <p class="footer-text">
         Need help? Contact us at
-        <a href="mailto:sandbox@ieee-itb.org" style="color: #FFCD8D; text-decoration: none;">
-          sandbox@ieee-itb.org
+        <a href="mailto:imd 2026 at itb@IMD 2026 at ITB-itb.org" style="color: #FFCD8D; text-decoration: none;">
+          imd 2026 at itb@IMD 2026 at ITB-itb.org
         </a>
       </p>
       <p class="footer-copyright">
-        © 2026 The Sandbox - IEEE ITB Student Branch. All rights reserved.
+        © 2026 The IMD 2026 at ITB - IMD 2026 at ITB Student Branch. All rights reserved.
       </p>
     </div>
   </div>

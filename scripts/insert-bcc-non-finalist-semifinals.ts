@@ -73,7 +73,7 @@ async function main() {
 
       if (
         teamName.startsWith('__SIM__') ||
-        email.includes('simulation.sandbox.internal')
+        email.includes('simulation.imd 2026 at itb.internal')
       ) {
         console.log(`  ⏭️  [${email}] simulation record — skipped`);
         skipped++;

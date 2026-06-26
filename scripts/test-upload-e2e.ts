@@ -14,7 +14,7 @@ import { PrismaClient } from '@prisma/client';
 const prisma = new PrismaClient();
 
 const BASE_URL = process.env.BASE_URL || 'http://localhost:3000';
-const TEST_EMAIL = 'test-upload@sandbox.dev';
+const TEST_EMAIL = 'test-upload@imd 2026 at itb.dev';
 const TEST_PASSWORD = 'TestUpload123!';
 
 // Generate a fake PDF buffer of ~5MB (above Vercel's 4.5MB limit)

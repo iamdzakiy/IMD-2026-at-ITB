@@ -1,4 +1,4 @@
-# IMD 2026 at ITB IEEE - Complete Codebase Analysis & System Documentation
+# IMD 2026 at ITB IMD 2026 at ITB - Complete Codebase Analysis & System Documentation
 
 **Analysis Date:** January 27, 2026  
 **Codebase Version:** IMD 2026 at ITB 2.0 (Tag: v.2.0)  
@@ -10,7 +10,7 @@
 
 ### 1. Project Overview & Purpose
 
-**IMD 2026 at ITB IEEE** is a **multi-event competition website** developed by IMD 2026 at ITB (Institut Teknologi Bandung). The platform manages team-based technical competitions with a structured workflow from registration through multiple submission stages.
+**IMD 2026 at ITB IMD 2026 at ITB** is a **multi-event competition website** developed by IMD 2026 at ITB (Institut Teknologi Bandung). The platform manages team-based technical competitions with a structured workflow from registration through multiple submission stages.
 
 **Main Features:**
 
@@ -315,7 +315,7 @@ if (!existingUser.active) {
 8. If referral code provided: Updates `RefferalCode` table (sets `isUsed: true`, links teamId)
 9. Sends registration data to Google Sheets (external webhook for admin tracking)
 10. Sends verification email to ALL team members:
-    - Subject: "[SANDBOX] Verification Process for Your {PTC/H4H} Ticket"
+    - Subject: "[IMD 2026 at ITB] Verification Process for Your {PTC/H4H} Ticket"
     - Content: Team registration pending admin review
 11. Returns success response
 12. Client redirects to event page with success toast

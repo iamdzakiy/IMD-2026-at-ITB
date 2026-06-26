@@ -75,10 +75,10 @@ export default function StatusBanner({ registration }: StatusBannerProps) {
             <p className='text-gray-400 text-sm mt-3'>
               If you believe this is a mistake, please contact us at{' '}
               <a
-                href='mailto:sandbox@ieee-itb.org'
+                href='mailto:imd 2026 at itb@IMD 2026 at ITB-itb.org'
                 className='text-[#FFCD8D] hover:underline'
               >
-                sandbox@ieee-itb.org
+                imd 2026 at itb@IMD 2026 at ITB-itb.org
               </a>
             </p>
           </div>

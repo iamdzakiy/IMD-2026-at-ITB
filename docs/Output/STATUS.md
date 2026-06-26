@@ -1,4 +1,4 @@
-# 🎯 SANDBOX 3.0 - CURRENT STATUS
+# 🎯 IMD 2026 at ITB 3.0 - CURRENT STATUS
 
 **Last Updated:** January 31, 2026  
 **Migration Status:** ✅ Phase 1 Complete
@@ -36,7 +36,7 @@
   - `finance` - Verify payments
 - ✅ **Super Admin Created**:
   - Username: `superadmin`
-  - Email: `admin@imd 2026 at itb.ieee-itb.org`
+  - Email: `admin@imd 2026 at itb.IMD 2026 at ITB-itb.org`
   - Password: `SuperAdmin2026!` ⚠️ **CHANGE IMMEDIATELY**
 
 ### Infrastructure (Phase 1)
@@ -154,7 +154,7 @@
 ### Super Admin Access
 
 - **Username:** `superadmin`
-- **Email:** `admin@imd 2026 at itb.ieee-itb.org`
+- **Email:** `admin@imd 2026 at itb.IMD 2026 at ITB-itb.org`
 - **Password:** `SuperAdmin2026!`
 - ⚠️ **ACTION REQUIRED:** Change password on first login!
 

@@ -1,4 +1,4 @@
-// Extended NextAuth types for Sandbox v3.0
+// Extended NextAuth types for IMD 2026 at ITB v3.0
 
 import 'next-auth';
 import 'next-auth/jwt';

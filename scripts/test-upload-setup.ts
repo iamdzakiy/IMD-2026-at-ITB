@@ -11,7 +11,7 @@
  *   npx tsx scripts/test-upload-setup.ts cleanup   # Remove test data & restore deadline
  *
  * After setup:
- *   1. Login at /login with:  test-upload@sandbox.dev / TestUpload123!
+ *   1. Login at /login with:  test-upload@imd 2026 at itb.dev / TestUpload123!
  *   2. Go to /dashboard → Submissions → Preliminary
  *   3. Upload a PDF between 4.5 MB and 10 MB
  *   4. Verify it succeeds (presigned URL flow) instead of the old JSON parse error
@@ -25,7 +25,7 @@ import { PrismaClient } from '@prisma/client';
 
 const prisma = new PrismaClient();
 
-const TEST_EMAIL = 'test-upload@sandbox.dev';
+const TEST_EMAIL = 'test-upload@imd 2026 at itb.dev';
 const TEST_USERNAME = 'test-upload-user';
 const TEST_PASSWORD = 'TestUpload123!';
 const TEST_TEAM_NAME = 'Upload Test Team';

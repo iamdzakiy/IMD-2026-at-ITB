@@ -84,7 +84,7 @@ export default function EventPage() {
               <div className='flex justify-center mb-8 md:mb-12'>
                 <Image
                   src='/logo/logo-white.svg'
-                  alt='Sandbox Logo'
+                  alt='IMD 2026 at ITB Logo'
                   width={80}
                   height={80}
                   className='w-16 h-16 md:w-20 md:h-20'

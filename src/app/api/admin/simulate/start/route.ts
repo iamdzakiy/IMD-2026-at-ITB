@@ -32,7 +32,7 @@ export async function POST(req: NextRequest) {
 
     const ts = Date.now();
     const simId = ts.toString(36);
-    const email = `sim-${competitionCode.toLowerCase()}-${simId}@simulation.sandbox.internal`;
+    const email = `sim-${competitionCode.toLowerCase()}-${simId}@simulation.imd 2026 at itb.internal`;
     const teamName = `${SIM_MARKER}${competitionCode}__${simId}`;
 
     // Create simulation user + registration + team in a transaction

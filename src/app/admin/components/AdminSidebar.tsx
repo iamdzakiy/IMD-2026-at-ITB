@@ -142,7 +142,7 @@ export default function AdminSidebar({ admin }: AdminSidebarProps) {
             <Shield className='text-white' size={24} />
           </div>
           <div>
-            <h1 className='text-xl font-bold text-gray-900'>Sandbox 3.0</h1>
+            <h1 className='text-xl font-bold text-gray-900'>IMD 2026 at ITB 3.0</h1>
             <p className='text-xs text-gray-500'>Admin Panel</p>
           </div>
         </div>
@@ -203,7 +203,7 @@ export default function AdminSidebar({ admin }: AdminSidebarProps) {
       {/* Footer */}
       <div className='p-4 border-t border-gray-200'>
         <p className='text-xs text-gray-500 text-center'>
-          © 2026 IEEE ITB Student Branch
+          © 2026 IMD 2026 at ITB Student Branch
         </p>
       </div>
     </aside>
