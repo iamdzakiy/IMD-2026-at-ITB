@@ -17,4 +17,10 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig;
+module.exports = {
+  // ... other config
+  env: {
+    NEXT_PUBLIC_DATOCMS_API_TOKEN:
+      process.env.NEXT_PUBLIC_DATOCMS_API_TOKEN || 'dummy-token',
+  },
+};
