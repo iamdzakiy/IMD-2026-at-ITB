@@ -10,7 +10,8 @@ async function testNewEmailDesign() {
   console.log('🎨 Testing New Email Design\n');
   console.log('='.repeat(50));
 
-  const testEmail = process.env.SMTP_USER || 'imd 2026 at itbieeewebsite@gmail.com';
+  const testEmail =
+    process.env.SMTP_USER || 'imd 2026 at itbieeewebsite@gmail.com';
 
   try {
     // Test all 4 email templates

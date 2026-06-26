@@ -1,8 +1,8 @@
 'use client';
 
+import { Users } from 'lucide-react';
 import Image from 'next/image';
 import { useEffect, useMemo, useState } from 'react';
-import { Users } from 'lucide-react';
 
 import Footer from '@/components/site/Footer';
 import Navbar from '@/components/site/Navbar';

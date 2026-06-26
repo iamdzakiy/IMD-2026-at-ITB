@@ -1,7 +1,6 @@
 'use client';
 
-import { AdminRole } from '@prisma/client';
-import { Check, ExternalLink, Eye, Filter, Search, X } from 'lucide-react';
+import { Check, ExternalLink, Search, X } from 'lucide-react';
 import { useState } from 'react';
 
 interface SubmissionsTableProps {

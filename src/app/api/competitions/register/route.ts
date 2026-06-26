@@ -20,31 +20,30 @@
  * ============================================================================
  */
 
+import { Prisma } from '@prisma/client';
 import { NextRequest, NextResponse } from 'next/server';
 import { z } from 'zod';
 
-import { Prisma } from '@prisma/client';
-
+import { auth } from '@/lib/auth';
 import { prisma } from '@/lib/db';
 import {
-  EVENT_DISCOUNT,
   calculateDiscountedFee,
   COMPETITION_PRICING,
+  EVENT_DISCOUNT,
 } from '@/lib/discount-config';
-import { uploadFile, getFileUrl } from '@/lib/fileUpload';
+import { getFileUrl, uploadFile } from '@/lib/fileUpload';
 import { appendToGoogleSheets } from '@/lib/google-sheets';
 import { logger } from '@/lib/logger';
+import {
+  RATE_LIMITS,
+  rateLimit,
+  rateLimitByUser,
+  refundRateLimit,
+} from '@/lib/rate-limit';
 import {
   acquireRegistrationLock,
   releaseRegistrationLock,
 } from '@/lib/registration-lock';
-import {
-  rateLimit,
-  rateLimitByUser,
-  refundRateLimit,
-  RATE_LIMITS,
-} from '@/lib/rate-limit';
-import { auth } from '@/lib/auth';
 
 // Zod schema for team member validation
 const memberSchema = z.object({

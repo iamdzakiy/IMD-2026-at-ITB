@@ -27,7 +27,8 @@ import { getBaseUrl } from '../src/lib/base-url';
 const EVENT_CODE = 'yif-x-grand-seminar';
 const CUTOFF_UTC = new Date('2026-03-06T04:40:00.000Z'); // 11:40 WIB
 const BASE_URL = getBaseUrl();
-const FROM_EMAIL = process.env.SMTP_USER || 'imd 2026 at itb@IMD 2026 at ITB-itb.org';
+const FROM_EMAIL =
+  process.env.SMTP_USER || 'imd 2026 at itb@IMD 2026 at ITB-itb.org';
 const FROM_NAME = 'The IMD 2026 at ITB 3.0 - IMD 2026 at ITB';
 const LOGO_URL = `${BASE_URL}/logo/logo-white.svg`;
 const TICKET_URL = `${BASE_URL}/event/${EVENT_CODE}/register`;

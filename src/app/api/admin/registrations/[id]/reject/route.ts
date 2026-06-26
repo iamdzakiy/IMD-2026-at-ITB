@@ -25,12 +25,11 @@
 
 import { NextRequest, NextResponse } from 'next/server';
 
-import { auth } from '@/lib/auth';
 import { rejectRegistrationSchema } from '@/lib/admin-schemas';
+import { auth } from '@/lib/auth';
 import { prisma } from '@/lib/db';
 import { sendRegistrationRejectedEmail } from '@/lib/email';
 import { logSubmissionToSheets } from '@/lib/google-sheets';
-import { logger } from '@/lib/logger';
 
 export async function POST(
   request: NextRequest,

@@ -112,15 +112,15 @@ export const metadata: Metadata = {
       'id-ID': '/id-ID/',
     },
   },
-  metadataBase: new URL('https://imd 2026 at itb.IMD 2026 at ITB.com/'),
+  metadataBase: new URL('http://localhost:3000'),
   verification: {
     google: 'GNYbAgsMCZ49BqBiEJz5TQE0X3H0XZGtURIryEvrNU8',
   },
   openGraph: {
     title: 'IMD 2026 at ITB IMD 2026 at ITB',
     description:
-      'The IMD 2026 at ITB 3.0 by IMD 2026 at ITB Student Branch is a national-level competition event featuring three competitions: ProtoTech Competition (PTC), Technovate Paper Competition (TPC), and Business Case Competition (BCC). Through structured competition flows, participants are encouraged to develop innovative solutions using smart automation technology to address real-world challenges.',
-    url: 'https://imd 2026 at itb.IMD 2026 at ITB.com/',
+      'The IMD 2026 at ITB 3.0 by IMD 2026 at ITB Student Branch is a national-level competition event XXXX.',
+    url: 'http://localhost:3000',
     siteName: 'IMD 2026 at ITB IMD 2026 at ITB',
     images: [
       {

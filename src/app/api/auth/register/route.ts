@@ -6,7 +6,7 @@ import { z } from 'zod';
 
 import { prisma } from '@/lib/db';
 import { sendActivationEmail } from '@/lib/email';
-import { rateLimit, RATE_LIMITS } from '@/lib/rate-limit';
+import { RATE_LIMITS, rateLimit } from '@/lib/rate-limit';
 
 /**
  * ============================================================================

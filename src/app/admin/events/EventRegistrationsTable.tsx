@@ -1,17 +1,17 @@
 'use client';
 
-import React from 'react';
 import { format } from 'date-fns';
-import { useRouter } from 'next/navigation';
 import {
+  Building2,
   CheckCircle,
-  XCircle,
   Eye,
   Loader2,
-  Building2,
   Mail,
   Phone,
+  XCircle,
 } from 'lucide-react';
+import { useRouter } from 'next/navigation';
+import React from 'react';
 import { useState } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
 

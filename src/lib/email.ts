@@ -15,7 +15,8 @@ import { getBaseUrl } from './base-url';
 import { transporter } from './mailTransporter';
 
 const BASE_URL = getBaseUrl();
-const FROM_EMAIL = process.env.SMTP_USER || 'imd 2026 at itb@IMD 2026 at ITB-itb.org';
+const FROM_EMAIL =
+  process.env.SMTP_USER || 'imd 2026 at itb@IMD 2026 at ITB-itb.org';
 const FROM_NAME = 'The IMD 2026 at ITB 3.0 - IMD 2026 at ITB';
 const LOGO_URL = `${BASE_URL}/logo/logo-white.svg`;
 

@@ -1,15 +1,15 @@
 'use client';
 
-import { ChevronRight, Loader2, Upload, FileImage, X } from 'lucide-react';
+import { ChevronRight, FileImage, Loader2, Upload, X } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useParams, useRouter } from 'next/navigation';
-import { Suspense, useCallback, useEffect, useRef, useState } from 'react';
 import { useSession } from 'next-auth/react';
+import { Suspense, useCallback, useEffect, useRef, useState } from 'react';
 
-import { uploadViaPresignedUrl } from '@/lib/clientUpload';
 import Footer from '@/components/site/Footer';
 import Navbar from '@/components/site/Navbar';
+import { uploadViaPresignedUrl } from '@/lib/clientUpload';
 
 type Competition = 'BCC' | 'TPC' | 'PTC';
 

@@ -1,16 +1,16 @@
 'use client';
 
-import { ChevronRight, Loader2, X, CheckCircle } from 'lucide-react';
+import { ChevronRight, Loader2, X } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useParams, useRouter } from 'next/navigation';
-import { Suspense, useCallback, useEffect, useRef, useState } from 'react';
 import { useSession } from 'next-auth/react';
+import { Suspense, useCallback, useEffect, useRef, useState } from 'react';
 
 import EventTicket from '@/components/site/EventTicket';
 import Footer from '@/components/site/Footer';
 import Navbar from '@/components/site/Navbar';
-import { getEventContent, type EventContent } from '@/lib/event-content';
+import { type EventContent, getEventContent } from '@/lib/event-content';
 
 interface FormData {
   eventCode: string;

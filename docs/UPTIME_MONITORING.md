@@ -7,8 +7,8 @@
 
 ### Monitors to Create
 
-| Monitor Name        | URL                                                 | Check Interval | Alert            |
-| ------------------- | --------------------------------------------------- | -------------- | ---------------- |
+| Monitor Name        | URL                                                                    | Check Interval | Alert            |
+| ------------------- | ---------------------------------------------------------------------- | -------------- | ---------------- |
 | Production Homepage | `https://imd 2026 at itb.IMD 2026 at ITB-itb.org`                      | 1 min          | Immediate        |
 | API Health          | `https://imd 2026 at itb.IMD 2026 at ITB-itb.org/api/competitions`     | 3 min          | After 2 failures |
 | Competition - PTC   | `https://imd 2026 at itb.IMD 2026 at ITB-itb.org/api/competitions/PTC` | 5 min          | After 2 failures |

@@ -142,7 +142,9 @@ export default function AdminSidebar({ admin }: AdminSidebarProps) {
             <Shield className='text-white' size={24} />
           </div>
           <div>
-            <h1 className='text-xl font-bold text-gray-900'>IMD 2026 at ITB 3.0</h1>
+            <h1 className='text-xl font-bold text-gray-900'>
+              IMD 2026 at ITB 3.0
+            </h1>
             <p className='text-xs text-gray-500'>Admin Panel</p>
           </div>
         </div>

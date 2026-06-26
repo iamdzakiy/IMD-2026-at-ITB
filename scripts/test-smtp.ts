@@ -31,7 +31,9 @@ async function testSMTP() {
     console.log('✅ SMTP connection successful!\n');
 
     // Send test email
-    console.log('📧 Sending test email to imd 2026 at itbieeewebsite@gmail.com...');
+    console.log(
+      '📧 Sending test email to imd 2026 at itbieeewebsite@gmail.com...',
+    );
     const info = await transporter.sendMail({
       from: `"The IMD 2026 at ITB Test" <${process.env.SMTP_USER}>`,
       to: 'imd 2026 at itbieeewebsite@gmail.com',

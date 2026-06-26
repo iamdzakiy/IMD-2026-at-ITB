@@ -4,7 +4,7 @@ import { Eye, EyeOff, Loader2, Shield } from 'lucide-react';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import { signIn } from 'next-auth/react';
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 /**
  * ============================================================================

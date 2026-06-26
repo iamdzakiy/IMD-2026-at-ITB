@@ -1,4 +1,4 @@
-import { CheckCircle, Clock, XCircle, Users as UsersIcon } from 'lucide-react';
+import { CheckCircle, Clock, Users as UsersIcon, XCircle } from 'lucide-react';
 import { redirect } from 'next/navigation';
 
 import { auth } from '@/lib/auth';

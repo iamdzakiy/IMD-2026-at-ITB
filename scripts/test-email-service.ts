@@ -164,7 +164,9 @@ async function testEmailService() {
   console.log('');
   console.log('📧 Check your SMTP logs or email inbox:');
   console.log(`   Email: ${testEmail}`);
-  console.log('   Subject: ✅ Activate Your IMD 2026 at ITB Account - Action Required');
+  console.log(
+    '   Subject: ✅ Activate Your IMD 2026 at ITB Account - Action Required',
+  );
   console.log('');
   console.log('🔗 To complete activation:');
   console.log('   1. Check email inbox (or SMTP logs)');

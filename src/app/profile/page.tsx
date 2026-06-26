@@ -1,12 +1,12 @@
-import { Calendar, Mail, MapPin, User, Users } from 'lucide-react';
+import { Calendar, Mail, User, Users } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { redirect } from 'next/navigation';
 
+import ProfileEventRegistrations from '@/components/site/ProfileEventRegistrations';
 import { auth } from '@/lib/auth';
 import { prisma } from '@/lib/db';
 import { getEventContent } from '@/lib/event-content';
-import ProfileEventRegistrations from '@/components/site/ProfileEventRegistrations';
 
 export const dynamic = 'force-dynamic';
 export const revalidate = 0; // Disable caching

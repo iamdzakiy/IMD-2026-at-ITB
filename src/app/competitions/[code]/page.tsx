@@ -1,22 +1,15 @@
 'use client';
 
+import { Calendar, ChevronDown, ChevronRight, Trophy } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useParams, useRouter } from 'next/navigation';
-import { useCallback, useEffect, useMemo, useState } from 'react';
 import { useSession } from 'next-auth/react';
-import {
-  ChevronRight,
-  ChevronDown,
-  Trophy,
-  Calendar,
-  FileText,
-  CheckCircle2,
-} from 'lucide-react';
+import { useEffect, useMemo, useState } from 'react';
 
 import Footer from '@/components/site/Footer';
 import Navbar from '@/components/site/Navbar';
-import { getCompetitionContent, formatDate } from '@/lib/competition-content';
+import { formatDate, getCompetitionContent } from '@/lib/competition-content';
 
 interface TimelineEvent {
   id: string;

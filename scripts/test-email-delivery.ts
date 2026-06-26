@@ -13,7 +13,9 @@ async function testEmailDelivery() {
 
   console.log('📝 Registering new user...');
   console.log(`   Email: ${testEmail}`);
-  console.log('   ⚠️  Note: Using imd 2026 at itbieeewebsite@gmail.com directly\n');
+  console.log(
+    '   ⚠️  Note: Using imd 2026 at itbieeewebsite@gmail.com directly\n',
+  );
 
   try {
     const response = await fetch(`${BASE_URL}/api/competitions/register`, {
@@ -41,11 +43,15 @@ async function testEmailDelivery() {
       console.log('   ✅ Email should have been sent via Brevo SMTP');
       console.log('   📧 Check inbox: imd 2026 at itbieeewebsite@gmail.com');
       console.log('   📁 Also check: Spam/Junk folder');
-      console.log('   🔍 Search for: "Activate Your IMD 2026 at ITB Account"\n');
+      console.log(
+        '   🔍 Search for: "Activate Your IMD 2026 at ITB Account"\n',
+      );
 
       console.log('🌐 Alternative checks:');
       console.log('   1. Brevo Dashboard: https://app.brevo.com/log');
-      console.log('   2. Gmail search: from:imd 2026 at itbieeewebsite@gmail.com');
+      console.log(
+        '   2. Gmail search: from:imd 2026 at itbieeewebsite@gmail.com',
+      );
       console.log('   3. Check "All Mail" folder in Gmail\n');
 
       console.log('⚠️  If still not received:');

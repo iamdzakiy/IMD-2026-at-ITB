@@ -17,20 +17,20 @@
  * ============================================================================
  */
 
+import { Prisma } from '@prisma/client';
 import { NextRequest, NextResponse } from 'next/server';
 import { z } from 'zod';
-import { Prisma } from '@prisma/client';
 
-import { prisma } from '@/lib/db';
 import { auth } from '@/lib/auth';
+import { prisma } from '@/lib/db';
+import { sendEventRegistrationConfirmationEmail } from '@/lib/email';
 import { getEventContent } from '@/lib/event-content';
 import {
+  RATE_LIMITS,
   rateLimit,
   rateLimitByUser,
   refundRateLimit,
-  RATE_LIMITS,
 } from '@/lib/rate-limit';
-import { sendEventRegistrationConfirmationEmail } from '@/lib/email';
 
 // Zod schema for event registration validation
 const eventRegistrationSchema = z.object({

@@ -87,7 +87,8 @@ export async function appendEventToGoogleSheets(data: {
   } catch (error) {
     logger.error(
       '❌ Failed to sync event registration to Google Sheets:',
-      error,
+      {}, // <-- Provide an empty context object as the second argument
+      error, // <-- Pass the error object as the third argument
     );
     return {
       success: false,

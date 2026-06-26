@@ -3,8 +3,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import Navbar from '@/components/site/Navbar';
 import Footer from '@/components/site/Footer';
+import Navbar from '@/components/site/Navbar';
 
 export default function NotFoundPage() {
   return (

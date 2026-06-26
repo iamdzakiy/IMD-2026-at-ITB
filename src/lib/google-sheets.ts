@@ -1,9 +1,9 @@
-const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true, // ← This disables ESLint checks during build
-  },
-  // ... any other config you have
-};
+import { logger } from './logger';
+/**
+ * ============================================================================
+ * GOOGLE SHEETS API INTEGRATION
+ * ============================================================================
+ */
 
 module.exports = nextConfig;
 import { logger } from './logger';
@@ -26,9 +26,7 @@ import { logger } from './logger';
  * 3. Share target sheets with service account email
  * 4. Add credentials to .env
  * ============================================================================
- */
-
-import { google } from 'googleapis';
+ */ import { google } from 'googleapis';
 
 // Initialize Google Sheets API
 const getGoogleSheetsClient = () => {
@@ -137,7 +135,7 @@ export async function appendToGoogleSheets(data: {
     );
     return { success: true };
   } catch (error) {
-    logger.error('❌ Failed to sync to Google Sheets:', error);
+    logger.error('❌ Failed to sync to Google Sheets:', error as any);
     // Don't throw - let registration succeed even if sheets sync fails
     return {
       success: false,
@@ -172,7 +170,7 @@ export async function readFromGoogleSheets(competitionCode: string) {
 
     return rows;
   } catch (error) {
-    logger.error('❌ Failed to read from Google Sheets:', error);
+    logger.error('❌ Failed to read from Google Sheets:', error as any);
     throw error;
   }
 }
@@ -225,7 +223,7 @@ export async function batchAppendToGoogleSheets(
     );
     return { success: true, count: dataArray.length };
   } catch (error) {
-    logger.error('❌ Batch sync to Google Sheets failed:', error);
+    logger.error('❌ Batch sync to Google Sheets failed:', error as any);
     return {
       success: false,
       error: error instanceof Error ? error.message : 'Unknown error',
@@ -309,7 +307,7 @@ export async function logSubmissionToSheets(data: SubmissionLogData) {
     );
     return { success: true };
   } catch (error) {
-    logger.error('❌ Failed to log submission to Google Sheets:', error);
+    logger.error('❌ Failed to log submission to Google Sheets:', error as any);
     return {
       success: false,
       error: error instanceof Error ? error.message : 'Unknown error',
