@@ -1,12 +1,3 @@
-import { logger } from './logger';
-/**
- * ============================================================================
- * GOOGLE SHEETS API INTEGRATION
- * ============================================================================
- */
-
-module.exports = nextConfig;
-import { logger } from './logger';
 /**
  * ============================================================================
  * GOOGLE SHEETS API INTEGRATION
@@ -26,7 +17,9 @@ import { logger } from './logger';
  * 3. Share target sheets with service account email
  * 4. Add credentials to .env
  * ============================================================================
- */ import { google } from 'googleapis';
+ */
+import { google } from 'googleapis';
+import { logger } from './logger';
 
 // Initialize Google Sheets API
 const getGoogleSheetsClient = () => {
