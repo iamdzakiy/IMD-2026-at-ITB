@@ -1,3 +1,4 @@
+import { logger } from './logger';
 /**
  * ============================================================================
  * GOOGLE SHEETS - EVENT REGISTRATION SYNC
@@ -48,7 +49,7 @@ export async function appendEventToGoogleSheets(data: {
     const sheetId = process.env.GOOGLE_SHEET_ID_EVENTS;
 
     if (!sheetId) {
-      console.warn('⚠️ GOOGLE_SHEET_ID_EVENTS not configured, skipping sync');
+      logger.warn('⚠️ GOOGLE_SHEET_ID_EVENTS not configured, skipping sync');
       return { success: false, error: 'Sheet ID not configured' };
     }
 
@@ -79,12 +80,12 @@ export async function appendEventToGoogleSheets(data: {
       },
     });
 
-    console.log(
+    logger.info(
       `✅ Event registration synced to Google Sheets: ${data.fullName}`,
     );
     return { success: true };
   } catch (error) {
-    console.error(
+    logger.error(
       '❌ Failed to sync event registration to Google Sheets:',
       error,
     );

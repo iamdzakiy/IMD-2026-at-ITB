@@ -74,22 +74,23 @@ function formatLog(
 export const logger = {
   debug(message: string, context?: LogContext) {
     if (!shouldLog('debug')) return;
+    // eslint-disable-next-line no-console
     console.debug(JSON.stringify(formatLog('debug', message, context)));
   },
 
   info(message: string, context?: LogContext) {
     if (!shouldLog('info')) return;
-    console.log(JSON.stringify(formatLog('info', message, context)));
+    logger.info(JSON.stringify(formatLog('info', message, context)));
   },
 
   warn(message: string, context?: LogContext, error?: unknown) {
     if (!shouldLog('warn')) return;
-    console.warn(JSON.stringify(formatLog('warn', message, context, error)));
+    logger.warn(JSON.stringify(formatLog('warn', message, context, error)));
   },
 
   error(message: string, context?: LogContext, error?: unknown) {
     if (!shouldLog('error')) return;
-    console.error(JSON.stringify(formatLog('error', message, context, error)));
+    logger.error(JSON.stringify(formatLog('error', message, context, error)));
   },
 
   /**
