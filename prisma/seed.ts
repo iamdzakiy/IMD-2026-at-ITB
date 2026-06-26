@@ -29,13 +29,13 @@ async function main() {
   // ============================================================================
   console.log('📋 Seeding Competition configurations...');
 
-  // ------ PTC (ProtoTech Competition) ------
-  const ptc = await prisma.competition.upsert({
-    where: { code: 'PTC' },
+  // ------ OMM (Olympiad of Microbiology) ------
+  const omm = await prisma.competition.upsert({
+    where: { code: 'OMM' },
     update: {
-      name: 'ProtoTech Competition',
+      name: 'Olympiad of Microbiology',
       description:
-        'ProtoTech Competition (PTC) is a national-scale prototyping competition that challenges undergraduate and high school students to develop innovative solutions using smart automation technology. Through a structured competition flow — from abstract submission to prototyping and final pitching — participants are encouraged to design practical, scalable, and impactful automation systems that address real-world industrial and societal challenges.',
+        'Olympiad of Microbiology (OMM) is a national-level competition that challenges students to demonstrate their understanding of microbiology concepts, laboratory techniques, and real-world applications. Participants engage in a series of tests, including written exams and practical challenges, to showcase their expertise in the field of microbiology.',
       registrationOpen: wib('2026-02-22T00:00:00'),
       registrationDeadline: wib('2026-03-16T23:59:59'),
       preliminaryStart: wib('2026-02-23T00:00:00'),
@@ -46,15 +46,15 @@ async function main() {
       finalDeadline: wib('2026-04-24T23:59:59'),
       grandFinalDate: wib('2026-04-25T00:00:00'),
       registrationFee: 200000,
-      minTeamSize: 3,
-      maxTeamSize: 5,
+      minTeamSize: 1,
+      maxTeamSize: 3,
       isActive: true,
     },
     create: {
-      code: 'PTC',
-      name: 'ProtoTech Competition',
+      code: 'OMM',
+      name: 'Olympiad of Microbiology',
       description:
-        'ProtoTech Competition (PTC) is a national-scale prototyping competition that challenges undergraduate and high school students to develop innovative solutions using smart automation technology. Through a structured competition flow — from abstract submission to prototyping and final pitching — participants are encouraged to design practical, scalable, and impactful automation systems that address real-world industrial and societal challenges.',
+        'Olympiad of Microbiology (OMM) is a national-level competition that challenges students to demonstrate their understanding of microbiology concepts, laboratory techniques, and real-world applications. Participants engage in a series of tests, including written exams and practical challenges, to showcase their expertise in the field of microbiology.',
       registrationOpen: wib('2026-02-22T00:00:00'),
       registrationDeadline: wib('2026-03-16T23:59:59'),
       preliminaryStart: wib('2026-02-23T00:00:00'),
@@ -65,20 +65,20 @@ async function main() {
       finalDeadline: wib('2026-04-24T23:59:59'),
       grandFinalDate: wib('2026-04-25T00:00:00'),
       registrationFee: 200000,
-      minTeamSize: 3,
-      maxTeamSize: 5,
+      minTeamSize: 1,
+      maxTeamSize: 3,
       isActive: true,
     },
   });
-  console.log('  ✅ PTC created:', ptc.name);
+  console.log('  ✅ OMM created:', omm.name);
 
-  // ------ TPC (Technovate Paper Competition) ------
-  const tpc = await prisma.competition.upsert({
-    where: { code: 'TPC' },
+  // ------ SPC (Science Project Competition) ------
+  const spc = await prisma.competition.upsert({
+    where: { code: 'SPC' },
     update: {
-      name: 'Technovate Paper Competition',
+      name: 'Science Project Competition',
       description:
-        'Technovate Paper Competition (TPC) is a competition held at the national level, aiming to challenge undergraduate and high school students to apply scientific methodology to scrutinize and propose solutions addressing relevant issues in accordance with the designated subtheme.',
+        'Science Project Competition (SPC) is a national-level event that invites students to develop and present innovative science projects. Participants work in teams to design experiments, analyze data, and demonstrate their projects to a panel of judges. The competition encourages creativity, scientific rigor, and effective communication of results.',
       registrationOpen: wib('2026-02-22T00:00:00'),
       registrationDeadline: wib('2026-03-16T23:59:59'),
       preliminaryStart: wib('2026-02-23T00:00:00'),
@@ -88,16 +88,16 @@ async function main() {
       finalStart: null,
       finalDeadline: null,
       grandFinalDate: wib('2026-04-25T00:00:00'),
-      registrationFee: 125000,
-      minTeamSize: 1,
-      maxTeamSize: 3,
+      registrationFee: 150000,
+      minTeamSize: 2,
+      maxTeamSize: 4,
       isActive: true,
     },
     create: {
-      code: 'TPC',
-      name: 'Technovate Paper Competition',
+      code: 'SPC',
+      name: 'Science Project Competition',
       description:
-        'Technovate Paper Competition (TPC) is a competition held at the national level, aiming to challenge undergraduate and high school students to apply scientific methodology to scrutinize and propose solutions addressing relevant issues in accordance with the designated subtheme.',
+        'Science Project Competition (SPC) is a national-level event that invites students to develop and present innovative science projects. Participants work in teams to design experiments, analyze data, and demonstrate their projects to a panel of judges. The competition encourages creativity, scientific rigor, and effective communication of results.',
       registrationOpen: wib('2026-02-22T00:00:00'),
       registrationDeadline: wib('2026-03-16T23:59:59'),
       preliminaryStart: wib('2026-02-23T00:00:00'),
@@ -107,21 +107,21 @@ async function main() {
       finalStart: null,
       finalDeadline: null,
       grandFinalDate: wib('2026-04-25T00:00:00'),
-      registrationFee: 125000,
-      minTeamSize: 1,
-      maxTeamSize: 3,
+      registrationFee: 150000,
+      minTeamSize: 2,
+      maxTeamSize: 4,
       isActive: true,
     },
   });
-  console.log('  ✅ TPC created:', tpc.name);
+  console.log('  ✅ SPC created:', spc.name);
 
-  // ------ BCC (Business Case Competition) ------
-  const bcc = await prisma.competition.upsert({
-    where: { code: 'BCC' },
+  // ------ NEC (National Essay Competition) ------
+  const nec = await prisma.competition.upsert({
+    where: { code: 'NEC' },
     update: {
-      name: 'Business Case Competition',
+      name: 'National Essay Competition',
       description:
-        'Business Case Competition (BCC) is a national-level analytical competition that challenges undergraduate students to solve real-world business problems related to the implementation of smart automation technology. Participants are required to analyze complex industry cases, develop data-driven and structured solutions, and present feasible strategies that balance technological innovation, operational efficiency, and business sustainability.',
+        'National Essay Competition (NEC) is a competition that challenges students to write compelling essays on topics related to science, technology, and society. Participants are required to produce well-argued, evidence-based essays that demonstrate critical thinking, clarity of expression, and a deep understanding of the chosen subject. The competition aims to promote scientific literacy and effective communication.',
       registrationOpen: wib('2026-02-22T00:00:00'),
       registrationDeadline: wib('2026-03-16T23:59:59'),
       preliminaryStart: wib('2026-02-23T00:00:00'),
@@ -131,17 +131,17 @@ async function main() {
       finalStart: wib('2026-04-16T00:00:00'),
       finalDeadline: wib('2026-04-22T23:59:59'),
       grandFinalDate: wib('2026-04-25T00:00:00'),
-      registrationFee: 150000,
-      minTeamSize: 3,
-      maxTeamSize: 3,
+      registrationFee: 100000,
+      minTeamSize: 1,
+      maxTeamSize: 1,
       isActive: true,
     },
     create: {
-      code: 'BCC',
-      name: 'Business Case Competition',
+      code: 'NEC',
+      name: 'National Essay Competition',
       description:
-        'Business Case Competition (BCC) is a national-level analytical competition that challenges undergraduate students to solve real-world business problems related to the implementation of smart automation technology. Participants are required to analyze complex industry cases, develop data-driven and structured solutions, and present feasible strategies that balance technological innovation, operational efficiency, and business sustainability.',
-      registrationOpen: wib('2026-02-22T00:00:00'),
+        'National Essay Competition (NEC) is a competition that challenges students to write compelling essays on topics related to science, technology, and society. Participants are required to produce well-argued, evidence-based essays that demonstrate critical thinking, clarity of expression, and a deep understanding of the chosen subject. The competition aims to promote scientific literacy and effective communication.',
+      registrationOpen: wib('2026-02-23T00:00:00'), // adjust as needed
       registrationDeadline: wib('2026-03-16T23:59:59'),
       preliminaryStart: wib('2026-02-23T00:00:00'),
       preliminaryDeadline: wib('2026-03-19T23:59:59'),
@@ -150,13 +150,13 @@ async function main() {
       finalStart: wib('2026-04-16T00:00:00'),
       finalDeadline: wib('2026-04-22T23:59:59'),
       grandFinalDate: wib('2026-04-25T00:00:00'),
-      registrationFee: 150000,
-      minTeamSize: 3,
-      maxTeamSize: 3,
+      registrationFee: 100000,
+      minTeamSize: 1,
+      maxTeamSize: 1,
       isActive: true,
     },
   });
-  console.log('  ✅ BCC created:', bcc.name);
+  console.log('  ✅ NEC created:', nec.name);
 
   // ============================================================================
   // 2. Seed Timeline Events
@@ -460,7 +460,7 @@ async function main() {
     update: {},
     create: {
       username: 'superadmin',
-      email: 'admin@imd 2026 at itb.IMD 2026 at ITB-itb.org',
+      email: 'fadzaro10@gmail.com',
       password: hashedPassword,
       adminRole: 'super_admin',
       isActive: true,
