@@ -11,7 +11,7 @@
  *
  * Credentials:
  *   Username: superadmin2
- *   Password: SandboxAdmin2026!
+ *   Password: IMD 2026 at ITBAdmin2026!
  * ============================================================================
  */
 
@@ -24,8 +24,8 @@ async function main() {
   console.log('👤 Creating new Super Admin account...\n');
 
   const username = 'superadmin2';
-  const password = 'SandboxAdmin2026!';
-  const email = 'superadmin2@sandbox.ieee-itb.org';
+  const password = 'IMD 2026 at ITBAdmin2026!';
+  const email = 'superadmin2@imd 2026 at itb.ieee-itb.org';
 
   // Check if username already exists
   const existing = await prisma.admin.findUnique({

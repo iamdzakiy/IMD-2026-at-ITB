@@ -36,7 +36,7 @@
   - `finance` - Verify payments
 - ✅ **Super Admin Created**:
   - Username: `superadmin`
-  - Email: `admin@sandbox.ieee-itb.org`
+  - Email: `admin@imd 2026 at itb.ieee-itb.org`
   - Password: `SuperAdmin2026!` ⚠️ **CHANGE IMMEDIATELY**
 
 ### Infrastructure (Phase 1)
@@ -154,7 +154,7 @@
 ### Super Admin Access
 
 - **Username:** `superadmin`
-- **Email:** `admin@sandbox.ieee-itb.org`
+- **Email:** `admin@imd 2026 at itb.ieee-itb.org`
 - **Password:** `SuperAdmin2026!`
 - ⚠️ **ACTION REQUIRED:** Change password on first login!
 
@@ -169,7 +169,7 @@
 
 - **Provider:** Sendinblue (now Brevo)
 - **SMTP:** smtp-relay.sendinblue.com:587
-- **Account:** sandboxieeewebsite@gmail.com
+- **Account:** imd 2026 at itbieeewebsite@gmail.com
 - **Status:** Credentials in .env ✅
 
 ### File Storage

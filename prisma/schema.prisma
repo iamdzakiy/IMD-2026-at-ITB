@@ -1,7 +1,7 @@
 // ============================================================================
 // THE SANDBOX 3.0 - DATABASE SCHEMA
 // ============================================================================
-// Competition Management System for IEEE ITB Student Branch
+// Competition Management System for IMD 2026 at ITB Student Branch
 // 
 // Architecture: Monolithic Next.js with Prisma ORM
 // Database: CockroachDB (PostgreSQL-compatible)

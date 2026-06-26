@@ -75,7 +75,7 @@ echo ""
 echo "🏗️ Build Test"
 echo "-------------"
 echo "Running production build..."
-cd /Users/jae/Documents/sandbox/SandboxIEEE
+cd /Users/jae/Documents/imd 2026 at itb/IMD 2026 at ITBIEEE
 npm run build > /tmp/dashboard-build.log 2>&1
 BUILD_EXIT=$?
 

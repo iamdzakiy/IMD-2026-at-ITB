@@ -1,7 +1,7 @@
-# Sandbox IEEE - Complete Codebase Analysis & System Documentation
+# IMD 2026 at ITB IEEE - Complete Codebase Analysis & System Documentation
 
 **Analysis Date:** January 27, 2026  
-**Codebase Version:** Sandbox 2.0 (Tag: v.2.0)  
+**Codebase Version:** IMD 2026 at ITB 2.0 (Tag: v.2.0)  
 **Analyzed by:** Senior Software Engineer
 
 ---
@@ -10,7 +10,7 @@
 
 ### 1. Project Overview & Purpose
 
-**Sandbox IEEE** is a **multi-event competition website** developed by IEEE ITB (Institut Teknologi Bandung). The platform manages team-based technical competitions with a structured workflow from registration through multiple submission stages.
+**IMD 2026 at ITB IEEE** is a **multi-event competition website** developed by IMD 2026 at ITB (Institut Teknologi Bandung). The platform manages team-based technical competitions with a structured workflow from registration through multiple submission stages.
 
 **Main Features:**
 
@@ -62,7 +62,7 @@
 #### **Payment Gateway**
 
 - **Midtrans Client** (1.3.1) - Indonesian payment gateway
-- Mode: Sandbox/Testing
+- Mode: IMD 2026 at ITB/Testing
 - Integration: Snap API (popup payment)
 
 #### **Email Service**
@@ -100,7 +100,7 @@
 ### 3. Project Structure
 
 ```
-SandboxIEEE/
+IMD 2026 at ITBIEEE/
 ├── prisma/                          # Database schema & migrations
 │   ├── schema.prisma               # Prisma schema (15+ models)
 │   └── migrations/                 # Database migration files
@@ -728,7 +728,7 @@ const filterTeam = allTeams.find(
 - **Database:** Connection pooling handled by Prisma
 - **File Storage:** UploadThing auto-generates unique filenames
 - **Email:** SMTP via Nodemailer (Gmail SMTP)
-- **Payment:** Midtrans sandbox mode (not production)
+- **Payment:** Midtrans imd 2026 at itb mode (not production)
 
 #### **Important Constants:**
 
@@ -811,7 +811,7 @@ Stage 3: '2025-04-09T18:00:00+07:00'
 - ✅ File size limits enforced
 - ⚠️ No rate limiting on API routes
 - ⚠️ No CSRF protection (Next.js default)
-- ⚠️ Midtrans in sandbox mode (not production-ready)
+- ⚠️ Midtrans in imd 2026 at itb mode (not production-ready)
 
 **Performance Concerns:**
 

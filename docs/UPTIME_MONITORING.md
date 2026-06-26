@@ -9,23 +9,23 @@
 
 | Monitor Name        | URL                                                 | Check Interval | Alert            |
 | ------------------- | --------------------------------------------------- | -------------- | ---------------- |
-| Production Homepage | `https://sandbox.ieee-itb.org`                      | 1 min          | Immediate        |
-| API Health          | `https://sandbox.ieee-itb.org/api/competitions`     | 3 min          | After 2 failures |
-| Competition - PTC   | `https://sandbox.ieee-itb.org/api/competitions/PTC` | 5 min          | After 2 failures |
-| Competition - TPC   | `https://sandbox.ieee-itb.org/api/competitions/TPC` | 5 min          | After 2 failures |
-| Competition - BCC   | `https://sandbox.ieee-itb.org/api/competitions/BCC` | 5 min          | After 2 failures |
+| Production Homepage | `https://imd 2026 at itb.ieee-itb.org`                      | 1 min          | Immediate        |
+| API Health          | `https://imd 2026 at itb.ieee-itb.org/api/competitions`     | 3 min          | After 2 failures |
+| Competition - PTC   | `https://imd 2026 at itb.ieee-itb.org/api/competitions/PTC` | 5 min          | After 2 failures |
+| Competition - TPC   | `https://imd 2026 at itb.ieee-itb.org/api/competitions/TPC` | 5 min          | After 2 failures |
+| Competition - BCC   | `https://imd 2026 at itb.ieee-itb.org/api/competitions/BCC` | 5 min          | After 2 failures |
 
 ### Alert Channels
 
-- **Slack**: Create a `#sandbox-alerts` channel
-- **Email**: sandbox-ops@ieee-itb.org
+- **Slack**: Create a `#imd 2026 at itb-alerts` channel
+- **Email**: imd 2026 at itb-ops@ieee-itb.org
 - **SMS**: Team lead phone number (critical alerts only)
 
 ### Status Page
 
 1. Create a status page at BetterUptime
 2. Add all monitors
-3. Share URL with participants: `https://status.sandbox.ieee-itb.org`
+3. Share URL with participants: `https://status.imd 2026 at itb.ieee-itb.org`
 
 ## Alternative: UptimeRobot (free, 5-minute checks)
 

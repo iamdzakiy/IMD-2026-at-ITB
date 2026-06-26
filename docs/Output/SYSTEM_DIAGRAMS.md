@@ -1,7 +1,7 @@
-# Sandbox IEEE - System Diagrams
+# IMD 2026 at ITB IEEE - System Diagrams
 
 **Generated:** January 27, 2026  
-**Based on:** Actual codebase implementation (Sandbox 2.0)
+**Based on:** Actual codebase implementation (IMD 2026 at ITB 2.0)
 
 ---
 
@@ -547,7 +547,7 @@ sequenceDiagram
     Database-->>-Tokenizer: Transaction saved
 
     Tokenizer->>+Midtrans: snap.createTransaction()
-    Note right of Midtrans: Mode: Sandbox<br/>Server Key
+    Note right of Midtrans: Mode: IMD 2026 at ITB<br/>Server Key
     Midtrans->>Midtrans: Generate payment page
     Midtrans-->>-Tokenizer: { token, redirect_url }
 
@@ -948,7 +948,7 @@ flowchart TB
 ## Notes on Diagrams
 
 **Data Accuracy:**
-All diagrams are generated based on actual code implementation as of Sandbox 2.0. No assumed or planned features are included.
+All diagrams are generated based on actual code implementation as of IMD 2026 at ITB 2.0. No assumed or planned features are included.
 
 **Key Observations:**
 

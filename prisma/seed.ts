@@ -460,7 +460,7 @@ async function main() {
     update: {},
     create: {
       username: 'superadmin',
-      email: 'admin@sandbox.ieee-itb.org',
+      email: 'admin@imd 2026 at itb.ieee-itb.org',
       password: hashedPassword,
       adminRole: 'super_admin',
       isActive: true,

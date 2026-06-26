@@ -2,7 +2,7 @@
 
 ## Overview
 
-This guide walks you through migrating from Sandbox v2.0 to v3.0 with a **fresh database schema**.
+This guide walks you through migrating from IMD 2026 at ITB v2.0 to v3.0 with a **fresh database schema**.
 
 ### Migration Strategy: Fresh Start (Drop All Tables)
 
@@ -20,7 +20,7 @@ This guide walks you through migrating from Sandbox v2.0 to v3.0 with a **fresh 
 
 ```bash
 # Export current database (optional)
-pg_dump $DATABASE_URL > backup_sandbox_v2_$(date +%Y%m%d).sql
+pg_dump $DATABASE_URL > backup_imd 2026 at itb_v2_$(date +%Y%m%d).sql
 ```
 
 **What will be LOST:**
@@ -46,7 +46,7 @@ pg_dump $DATABASE_URL > backup_sandbox_v2_$(date +%Y%m%d).sql
 
 ```bash
 # Check current directory
-pwd  # Should be: /Users/jae/Documents/sandbox/SandboxIEEE
+pwd  # Should be: /Users/jae/Documents/imd 2026 at itb/IMD 2026 at ITBIEEE
 
 # Verify .env file exists and has DATABASE_URL
 cat .env | grep DATABASE_URL
@@ -98,7 +98,7 @@ npm run db:push
 👤 Seeding Super Admin account...
   ✅ Super Admin created:
      Username: superadmin
-     Email: admin@sandbox.ieee-itb.org
+     Email: admin@imd 2026 at itb.ieee-itb.org
      Password: SuperAdmin2026!
      ⚠️  WARNING: Change this password immediately after first login!
 
@@ -131,7 +131,7 @@ npm run studio
 
 ```
 Username: superadmin
-Email: admin@sandbox.ieee-itb.org
+Email: admin@imd 2026 at itb.ieee-itb.org
 Password: SuperAdmin2026!
 ```
 
